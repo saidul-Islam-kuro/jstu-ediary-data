@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "universityName": "Jashore University of Science and Technology",
+    "shortName": "JSTU eDiary",
+    "headerPhoto": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&q=80"
+  },
+
+  "mainCategories": [
+    { "id": "administration", "title": "Administration", "icon": "business", "path": "/administration" },
+    { "id": "faculties", "title": "Faculties", "icon": "school", "path": "/faculties" },
+    { "id": "halls", "title": "Halls", "icon": "home", "path": "/halls" },
+    { "id": "institutes", "title": "Institute", "icon": "library", "path": "/institutes" },
+    { "id": "sections", "title": "Sections", "icon": "grid", "path": "/sections" },
+    { "id": "emergency", "title": "Emergency", "icon": "alert-circle", "path": "/emergency", "isEmergency": true }
+  ],
+
+  "moreContacts": [
+    { "id": "bank", "title": "Bank", "icon": "card", "path": "/utilities/bank" },
+    { "id": "hospital", "title": "Hospital", "icon": "medical", "path": "/utilities/hospital" },
+    { "id": "reporters", "title": "Reporters", "icon": "newspaper", "path": "/utilities/reporters" },
+    { "id": "pharmacy", "title": "Pharmacy", "icon": "medkit", "path": "/utilities/pharmacy" },
+    { "id": "army-rab-police", "title": "Army, RAB & Police", "icon": "shield", "path": "/utilities/army-rab-police" },
+    { "id": "public-universities", "title": "Public Universities", "icon": "school", "path": "/utilities/public-universities" },
+    { "id": "other-councils", "title": "Other Councils", "icon": "people", "path": "/utilities/other-councils" },
+    { "id": "edu-ministry", "title": "Edu. Ministry", "icon": "business", "path": "/utilities/edu-ministry" },
+    { "id": "ag-ministry", "title": "Ag. Ministry", "icon": "leaf", "path": "/utilities/ag-ministry" },
+    { "id": "railway", "title": "Railway", "icon": "train", "path": "/utilities/railway" },
+    { "id": "other-organizations", "title": "Other Organizations", "icon": "business", "path": "/utilities/other-organizations" },
+    { "id": "electronic-print-media", "title": "Electronic & Print Media", "icon": "tv", "path": "/utilities/electronic-print-media" },
+    { "id": "printing-press", "title": "Printing Press & Others", "icon": "print", "path": "/utilities/printing-press" },
+    { "id": "international-org", "title": "International Org.", "icon": "globe", "path": "/utilities/international-org" },
+    { "id": "foreign-embassy", "title": "Foreign Embassy", "icon": "flag", "path": "/utilities/foreign-embassy" },
+    { "id": "ag-research-org", "title": "Ag. Research Org.", "icon": "flask", "path": "/utilities/ag-research-org" },
+    { "id": "important-number", "title": "Important Number", "icon": "alert", "path": "/utilities/important-number" },
+    { "id": "electricity-water-gas-tel", "title": "Electricity, Water, Gas, Tel", "icon": "construct", "path": "/utilities/electricity-water-gas-tel" }
+  ],
+
+  "faculties": [
+    {
+      "id": "fac-engineering",
+      "title": "Faculty of Engineering",
+      "icon": "construct",
+      "dean": {
+        "id": "p-dean-eng",
+        "name": "Dr. Placeholder Dean - Engineering",
+        "role": "Dean",
+        "mobile": "01700000001",
+        "officePhone": "101",
+        "email": "dean.eng@jstu.ac.bd"
+      },
+      "departments": [
+        {
+          "id": "eee",
+          "title": "Department of Electrical and Electronics Engineering",
+          "head": {
+            "id": "p-head-eee",
+            "name": "Dr. Placeholder Head - EEE",
+            "role": "Head",
+            "mobile": "01700000100",
+            "officePhone": "102",
+            "email": "head.eee@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-eee-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000101", "email": "teacher1.eee@jstu.ac.bd" },
+            { "id": "p-teacher-eee-2", "name": "Dr. Placeholder Teacher 2", "role": "Associate Professor", "mobile": "01700000102", "email": "teacher2.eee@jstu.ac.bd" },
+            { "id": "p-teacher-eee-3", "name": "Dr. Placeholder Teacher 3", "role": "Assistant Professor", "mobile": "01700000103", "email": "teacher3.eee@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-eee-1", "name": "Placeholder Staff 1", "role": "Lab Technician", "mobile": "01700000104", "email": "staff1.eee@jstu.ac.bd" }
+          ]
+        },
+        {
+          "id": "cse",
+          "title": "Department of Computer Science Engineering",
+          "head": {
+            "id": "p-head-cse",
+            "name": "Dr. Placeholder Head - CSE",
+            "role": "Head",
+            "mobile": "01700000110",
+            "officePhone": "103",
+            "email": "head.cse@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-cse-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000111", "email": "teacher1.cse@jstu.ac.bd" },
+            { "id": "p-teacher-cse-2", "name": "Dr. Placeholder Teacher 2", "role": "Associate Professor", "mobile": "01700000112", "email": "teacher2.cse@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-cse-1", "name": "Placeholder Staff 1", "role": "Lab Assistant", "mobile": "01700000113", "email": "staff1.cse@jstu.ac.bd" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac-science",
+      "title": "Faculty of Science",
+      "icon": "flask",
+      "dean": {
+        "id": "p-dean-sci",
+        "name": "Dr. Placeholder Dean - Science",
+        "role": "Dean",
+        "mobile": "01700000010",
+        "officePhone": "201",
+        "email": "dean.sci@jstu.ac.bd"
+      },
+      "departments": [
+        {
+          "id": "math",
+          "title": "Department of Mathematics",
+          "head": {
+            "id": "p-head-math",
+            "name": "Dr. Placeholder Head - Math",
+            "role": "Head",
+            "mobile": "01700000200",
+            "officePhone": "202",
+            "email": "head.math@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-math-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000201", "email": "teacher1.math@jstu.ac.bd" },
+            { "id": "p-teacher-math-2", "name": "Dr. Placeholder Teacher 2", "role": "Assistant Professor", "mobile": "01700000202", "email": "teacher2.math@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-math-1", "name": "Placeholder Staff 1", "role": "Office Assistant", "mobile": "01700000203", "email": "staff1.math@jstu.ac.bd" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac-agri-life",
+      "title": "Faculty of Agriculture and Life Science",
+      "icon": "leaf",
+      "dean": {
+        "id": "p-dean-agri",
+        "name": "Dr. Placeholder Dean - Agriculture",
+        "role": "Dean",
+        "mobile": "01700000020",
+        "officePhone": "301",
+        "email": "dean.agri@jstu.ac.bd"
+      },
+      "departments": [
+        {
+          "id": "fisheries",
+          "title": "Department of Fisheries",
+          "head": {
+            "id": "p-head-fish",
+            "name": "Dr. Placeholder Head - Fisheries",
+            "role": "Head",
+            "mobile": "01700000300",
+            "officePhone": "302",
+            "email": "head.fish@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-fish-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000301", "email": "teacher1.fish@jstu.ac.bd" },
+            { "id": "p-teacher-fish-2", "name": "Dr. Placeholder Teacher 2", "role": "Assistant Professor", "mobile": "01700000302", "email": "teacher2.fish@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-fish-1", "name": "Placeholder Staff 1", "role": "Field Assistant", "mobile": "01700000303", "email": "staff1.fish@jstu.ac.bd" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac-earth",
+      "title": "Faculty of Earth Science",
+      "icon": "globe",
+      "dean": {
+        "id": "p-dean-earth",
+        "name": "Dr. Placeholder Dean - Earth Science",
+        "role": "Dean",
+        "mobile": "01700000030",
+        "officePhone": "401",
+        "email": "dean.earth@jstu.ac.bd"
+      },
+      "departments": [
+        {
+          "id": "geology",
+          "title": "Department of Geology",
+          "head": {
+            "id": "p-head-geo",
+            "name": "Dr. Placeholder Head - Geology",
+            "role": "Head",
+            "mobile": "01700000400",
+            "officePhone": "402",
+            "email": "head.geo@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-geo-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000401", "email": "teacher1.geo@jstu.ac.bd" },
+            { "id": "p-teacher-geo-2", "name": "Dr. Placeholder Teacher 2", "role": "Associate Professor", "mobile": "01700000402", "email": "teacher2.geo@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-geo-1", "name": "Placeholder Staff 1", "role": "Lab Assistant", "mobile": "01700000403", "email": "staff1.geo@jstu.ac.bd" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac-business",
+      "title": "Faculty of Business Studies",
+      "icon": "briefcase",
+      "dean": {
+        "id": "p-dean-bus",
+        "name": "Dr. Placeholder Dean - Business",
+        "role": "Dean",
+        "mobile": "01700000040",
+        "officePhone": "501",
+        "email": "dean.bus@jstu.ac.bd"
+      },
+      "departments": [
+        {
+          "id": "management",
+          "title": "Department of Management",
+          "head": {
+            "id": "p-head-mgmt",
+            "name": "Dr. Placeholder Head - Management",
+            "role": "Head",
+            "mobile": "01700000500",
+            "officePhone": "502",
+            "email": "head.mgmt@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-mgmt-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000501", "email": "teacher1.mgmt@jstu.ac.bd" },
+            { "id": "p-teacher-mgmt-2", "name": "Dr. Placeholder Teacher 2", "role": "Assistant Professor", "mobile": "01700000502", "email": "teacher2.mgmt@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-mgmt-1", "name": "Placeholder Staff 1", "role": "Office Assistant", "mobile": "01700000503", "email": "staff1.mgmt@jstu.ac.bd" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac-social",
+      "title": "Faculty of Social Science",
+      "icon": "people",
+      "dean": {
+        "id": "p-dean-social",
+        "name": "Dr. Placeholder Dean - Social Science",
+        "role": "Dean",
+        "mobile": "01700000050",
+        "officePhone": "601",
+        "email": "dean.social@jstu.ac.bd"
+      },
+      "departments": [
+        {
+          "id": "social-work",
+          "title": "Department of Social Work",
+          "head": {
+            "id": "p-head-sw",
+            "name": "Dr. Placeholder Head - Social Work",
+            "role": "Head",
+            "mobile": "01700000600",
+            "officePhone": "602",
+            "email": "head.sw@jstu.ac.bd"
+          },
+          "teachers": [
+            { "id": "p-teacher-sw-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000601", "email": "teacher1.sw@jstu.ac.bd" },
+            { "id": "p-teacher-sw-2", "name": "Dr. Placeholder Teacher 2", "role": "Assistant Professor", "mobile": "01700000602", "email": "teacher2.sw@jstu.ac.bd" }
+          ],
+          "staff": [
+            { "id": "p-staff-sw-1", "name": "Placeholder Staff 1", "role": "Office Assistant", "mobile": "01700000603", "email": "staff1.sw@jstu.ac.bd" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "administration": [
+    {
+      "id": "vc-secretariat",
+      "title": "Vice-Chancellor's Secretariat",
+      "icon": "school-outline",
+      "head": {
+        "id": "p-vc",
+        "name": "Dr. Placeholder Vice-Chancellor",
+        "role": "Vice Chancellor",
+        "mobile": "01700000900",
+        "officePhone": "901",
+        "email": "vc@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-vc-1", "name": "Placeholder Officer 1", "role": "Officer on Special Duty", "mobile": "01700000901", "officePhone": "902", "email": "osd@jstu.ac.bd" },
+        { "id": "p-vc-2", "name": "Placeholder Officer 2", "role": "Deputy Director", "mobile": "01700000902", "email": "dd@jstu.ac.bd" }
+      ]
+    },
+    {
+      "id": "pro-vc",
+      "title": "Pro Vice-Chancellor's Office",
+      "icon": "school",
+      "head": {
+        "id": "p-pro-vc",
+        "name": "Dr. Placeholder Pro Vice-Chancellor",
+        "role": "Pro Vice Chancellor",
+        "mobile": "01700000910",
+        "officePhone": "911",
+        "email": "provc@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-provc-1", "name": "Placeholder Officer 1", "role": "Assistant Registrar", "mobile": "01700000911", "email": "ar.provc@jstu.ac.bd" }
+      ]
+    },
+    {
+      "id": "treasurer",
+      "title": "Treasurer's Office",
+      "icon": "cash",
+      "head": {
+        "id": "p-treasurer",
+        "name": "Mr. Placeholder Treasurer",
+        "role": "Treasurer",
+        "mobile": "01700000920",
+        "officePhone": "921",
+        "email": "treasurer@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-treas-1", "name": "Placeholder Officer 1", "role": "Deputy Treasurer", "mobile": "01700000921", "email": "dt@jstu.ac.bd" }
+      ]
+    },
+    {
+      "id": "registrar-office",
+      "title": "Registrar Office",
+      "icon": "document-text",
+      "head": {
+        "id": "p-registrar",
+        "name": "Dr. Placeholder Registrar",
+        "role": "Registrar",
+        "mobile": "01700000930",
+        "officePhone": "931",
+        "email": "registrar@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-reg-1", "name": "Placeholder Officer 1", "role": "Additional Registrar", "mobile": "01700000931", "email": "addl.reg@jstu.ac.bd" },
+        { "id": "p-reg-2", "name": "Placeholder Officer 2", "role": "Deputy Registrar", "mobile": "01700000932", "email": "dr.reg@jstu.ac.bd" }
+      ]
+    }
+  ],
+
+  "halls": [
+    {
+      "id": "bijoy-24",
+      "title": "Bijoy-24 Hall (Boys)",
+      "head": {
+        "id": "p-provost-bijoy",
+        "name": "Dr. Placeholder Provost - Bijoy-24",
+        "role": "Provost",
+        "mobile": "01700000700",
+        "officePhone": "701",
+        "email": "provost.bijoy@jstu.ac.bd"
+      },
+      "staff": [
+        { "id": "p-hall-bijoy-1", "name": "Placeholder Deputy Registrar", "role": "Deputy Registrar", "mobile": "01700000701", "email": "dr.bijoy@jstu.ac.bd" },
+        { "id": "p-hall-bijoy-2", "name": "Placeholder Section Officer", "role": "Section Officer", "mobile": "01700000702", "email": "so.bijoy@jstu.ac.bd" }
+      ]
+    },
+    {
+      "id": "nurunnahar-begum",
+      "title": "Nurunnahar Begum Hall (Women's Hall)",
+      "head": {
+        "id": "p-provost-nurunnahar",
+        "name": "Dr. Placeholder Provost - Nurunnahar Begum",
+        "role": "Provost",
+        "mobile": "01700000710",
+        "officePhone": "711",
+        "email": "provost.nurunnahar@jstu.ac.bd"
+      },
+      "staff": [
+        { "id": "p-hall-nurunnahar-1", "name": "Placeholder Deputy Registrar", "role": "Deputy Registrar", "mobile": "01700000711", "email": "dr.nurunnahar@jstu.ac.bd" },
+        { "id": "p-hall-nurunnahar-2", "name": "Placeholder Section Officer", "role": "Section Officer", "mobile": "01700000712", "email": "so.nurunnahar@jstu.ac.bd" }
+      ]
+    }
+  ],
+
+  "institutes": [
+    {
+      "id": "institute-1",
+      "title": "Institute of Information Technology (IIT)",
+      "head": {
+        "id": "p-director-1",
+        "name": "Dr. Placeholder Director 1",
+        "role": "Director",
+        "mobile": "01700000800",
+        "email": "director1@jstu.ac.bd"
+      },
+      "staff": [
+        { "id": "p-inst1-1", "name": "Placeholder Research Officer", "role": "Research Officer", "mobile": "01700000801", "email": "ro1@jstu.ac.bd" }
+      ]
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "proctor-office",
+      "title": "Proctor Office",
+      "head": {
+        "id": "p-proc-head",
+        "name": "Dr. Placeholder Proctor",
+        "role": "Proctor",
+        "mobile": "01700000750",
+        "email": "proctor@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-proc-1", "name": "Placeholder Assistant Proctor", "role": "Assistant Proctor", "mobile": "01700000751", "email": "assistproc@jstu.ac.bd" }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "library",
+      "title": "Central Library",
+      "head": {
+        "id": "p-lib-head",
+        "name": "Placeholder Chief Librarian",
+        "role": "Chief Librarian",
+        "mobile": "01700000760",
+        "email": "library@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-lib-1", "name": "Placeholder Assistant Librarian", "role": "Assistant Librarian", "mobile": "01700000761", "email": "assistlib@jstu.ac.bd" }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "ict-cell",
+      "title": "ICT Cell",
+      "head": {
+        "id": "p-ict-head",
+        "name": "Placeholder Section Head",
+        "role": "Section Head",
+        "mobile": "01700000770",
+        "email": "ict@jstu.ac.bd"
+      },
+      "officers": [
+        { "id": "p-ict-1", "name": "Placeholder System Analyst", "role": "System Analyst", "mobile": "01700000771", "email": "sysanalyst@jstu.ac.bd" }
+      ],
+      "subsections": []
+    }
+  ],
+
+  "emergency": [
+    { "id": "call-doctor", "title": "Call Doctor", "icon": "medkit", "phone": "01700000999" },
+    { "id": "security", "title": "Security", "icon": "shield", "phone": "01700000998" },
+    { "id": "fire-service", "title": "Fire Service", "icon": "flame", "phone": "01700000997" },
+    { "id": "transport", "title": "Transport", "icon": "bus", "phone": "01700000996" },
+    { "id": "power-house", "title": "Power House", "icon": "flash", "phone": "01700000995" },
+    { "id": "cleanliness", "title": "Cleanliness", "icon": "construct", "phone": "01700000994" }
+  ],
+
+  "utilities": {
+    "bank": [
+      { "id": "u-bank-1", "name": "Sonali Bank - University Branch", "phone": "01700000810" },
+      { "id": "u-bank-2", "name": "Janata Bank - Campus Branch", "phone": "01700000811" }
+    ],
+    "hospital": [
+      { "id": "u-hosp-1", "name": "JSTU Medical Center", "phone": "01700000820" },
+      { "id": "u-hosp-2", "name": "District General Hospital", "phone": "01700000821" }
+    ],
+    "pharmacy": [
+      { "id": "u-pharm-1", "name": "Campus Pharmacy", "phone": "01700000830" }
+    ],
+    "reporters": [
+      { "id": "u-rep-1", "name": "Campus Reporter - Daily Star", "phone": "01700000840" },
+      { "id": "u-rep-2", "name": "Campus Reporter - Prothom Alo", "phone": "01700000841" }
+    ]
+  }
+}
