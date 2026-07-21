@@ -276,11 +276,12 @@
         "role": "Vice Chancellor",
         "mobile": "N/A",
         "officePhone": "+8802-223377501",
-        "email": "vc@jstu.ac.bd"
+        "email": "vc@jstu.ac.bd",
+        "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/vcjstu.jpg"
       },
       "officers": [
-        { "id": "p-vc-1", "name": "Placeholder Officer 1", "role": "Officer on Special Duty", "mobile": "01700000901", "officePhone": "902", "email": "osd@jstu.ac.bd" },
-        { "id": "p-vc-2", "name": "Placeholder Officer 2", "role": "Deputy Director", "mobile": "01700000902", "email": "dd@jstu.ac.bd" }
+       
+        { "id": "p-vc-2", "name": "MD> Sohag Sarkar", "role": "Personal Officer", "mobile": "01719340940", "email": "sohag@jstu.ac.bd" }
       ]
     },
     {
