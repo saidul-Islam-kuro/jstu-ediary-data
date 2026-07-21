@@ -272,10 +272,10 @@
       "icon": "school-outline",
       "head": {
         "id": "p-vc",
-        "name": "Dr. Placeholder Vice-Chancellor",
+        "name": "Professor Dr. Md. Amir Hossain",
         "role": "Vice Chancellor",
-        "mobile": "01700000900",
-        "officePhone": "901",
+        "mobile": "N/A",
+        "officePhone": "+8802-223377501",
         "email": "vc@jstu.ac.bd"
       },
       "officers": [
@@ -289,14 +289,14 @@
       "icon": "school",
       "head": {
         "id": "p-pro-vc",
-        "name": "Dr. Placeholder Pro Vice-Chancellor",
+        "name": "N/A",
         "role": "Pro Vice Chancellor",
-        "mobile": "01700000910",
-        "officePhone": "911",
+        "mobile": "N/A",
+        "officePhone": "N/A",
         "email": "provc@jstu.ac.bd"
       },
       "officers": [
-        { "id": "p-provc-1", "name": "Placeholder Officer 1", "role": "Assistant Registrar", "mobile": "01700000911", "email": "ar.provc@jstu.ac.bd" }
+        { "id": "p-provc-1", "name": "MD. Hasibur Rahmnan", "role": "Computer OPerator", "mobile": "01722320232", "email": "hasiburr549@gmail.com" }
       ]
     },
     {
@@ -305,14 +305,14 @@
       "icon": "cash",
       "head": {
         "id": "p-treasurer",
-        "name": "Mr. Placeholder Treasurer",
+        "name": "N/A",
         "role": "Treasurer",
-        "mobile": "01700000920",
-        "officePhone": "921",
-        "email": "treasurer@jstu.ac.bd"
+        "mobile": "N/A",
+        "officePhone": "N/A",
+        "email": "N/A"
       },
       "officers": [
-        { "id": "p-treas-1", "name": "Placeholder Officer 1", "role": "Deputy Treasurer", "mobile": "01700000921", "email": "dt@jstu.ac.bd" }
+       
       ]
     },
     {
@@ -321,15 +321,15 @@
       "icon": "document-text",
       "head": {
         "id": "p-registrar",
-        "name": "Dr. Placeholder Registrar",
+        "name": "Mohammed Nur Hossein Chowdhury",
         "role": "Registrar",
-        "mobile": "01700000930",
-        "officePhone": "931",
+        "mobile": "01818248796",
+        "officePhone": "",
         "email": "registrar@jstu.ac.bd"
       },
       "officers": [
-        { "id": "p-reg-1", "name": "Placeholder Officer 1", "role": "Additional Registrar", "mobile": "01700000931", "email": "addl.reg@jstu.ac.bd" },
-        { "id": "p-reg-2", "name": "Placeholder Officer 2", "role": "Deputy Registrar", "mobile": "01700000932", "email": "dr.reg@jstu.ac.bd" }
+        { "id": "p-reg-1", "name": "MD. Barikul Islam", "role": "Computer operator", "mobile": "01718-673364", "email": "barikul3364@gmail.com" }
+       
       ]
     }
   ],
@@ -340,15 +340,15 @@
       "title": "Bijoy-24 Hall (Boys)",
       "head": {
         "id": "p-provost-bijoy",
-        "name": "Dr. Placeholder Provost - Bijoy-24",
+        "name": "Dr. Mohammed Forhad Ali",
         "role": "Provost",
-        "mobile": "01700000700",
-        "officePhone": "701",
-        "email": "provost.bijoy@jstu.ac.bd"
+        "mobile": "01712-789928",
+        "officePhone": "N/A",
+        "email": "forhadali@jstu.ac.bd"
       },
       "staff": [
-        { "id": "p-hall-bijoy-1", "name": "Placeholder Deputy Registrar", "role": "Deputy Registrar", "mobile": "01700000701", "email": "dr.bijoy@jstu.ac.bd" },
-        { "id": "p-hall-bijoy-2", "name": "Placeholder Section Officer", "role": "Section Officer", "mobile": "01700000702", "email": "so.bijoy@jstu.ac.bd" }
+      
+      
       ]
     },
     {
@@ -356,32 +356,30 @@
       "title": "Nurunnahar Begum Hall (Women's Hall)",
       "head": {
         "id": "p-provost-nurunnahar",
-        "name": "Dr. Placeholder Provost - Nurunnahar Begum",
+        "name": "Dr. Mousomi Akter",
         "role": "Provost",
-        "mobile": "01700000710",
-        "officePhone": "711",
-        "email": "provost.nurunnahar@jstu.ac.bd"
+        "mobile": "01722917152",
+        "officePhone": "N/A",
+        "email": "mousomi@gmail.com"
       },
       "staff": [
-        { "id": "p-hall-nurunnahar-1", "name": "Placeholder Deputy Registrar", "role": "Deputy Registrar", "mobile": "01700000711", "email": "dr.nurunnahar@jstu.ac.bd" },
-        { "id": "p-hall-nurunnahar-2", "name": "Placeholder Section Officer", "role": "Section Officer", "mobile": "01700000712", "email": "so.nurunnahar@jstu.ac.bd" }
-      ]
+        ]
     }
   ],
 
   "institutes": [
     {
       "id": "institute-1",
-      "title": "Institute of Information Technology (IIT)",
+      "title": "N/A",
       "head": {
         "id": "p-director-1",
-        "name": "Dr. Placeholder Director 1",
+        "name": "N/A",
         "role": "Director",
-        "mobile": "01700000800",
-        "email": "director1@jstu.ac.bd"
+        "mobile": "N/A",
+        "email": ""
       },
       "staff": [
-        { "id": "p-inst1-1", "name": "Placeholder Research Officer", "role": "Research Officer", "mobile": "01700000801", "email": "ro1@jstu.ac.bd" }
+       
       ]
     }
   ],
