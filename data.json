@@ -15,6 +15,7 @@
   ],
 
   "moreContacts": [
+    { "id": "jstu-clubs", "title": "JSTU Clubs & Society", "icon": "groups", "path": "/utilities/jstu-clubs" },
     { "id": "bank", "title": "Bank", "icon": "card", "path": "/utilities/bank" },
     { "id": "hospital", "title": "Hospital", "icon": "medical", "path": "/utilities/hospital" },
     { "id": "reporters", "title": "Reporters", "icon": "newspaper", "path": "/utilities/reporters" },
@@ -23,14 +24,14 @@
     { "id": "public-universities", "title": "Public Universities", "icon": "school", "path": "/utilities/public-universities" },
     { "id": "other-councils", "title": "Other Councils", "icon": "people", "path": "/utilities/other-councils" },
     { "id": "edu-ministry", "title": "Edu. Ministry", "icon": "business", "path": "/utilities/edu-ministry" },
-    { "id": "ag-ministry", "title": "Ag. Ministry", "icon": "leaf", "path": "/utilities/ag-ministry" },
+    
     { "id": "railway", "title": "Railway", "icon": "train", "path": "/utilities/railway" },
-    { "id": "other-organizations", "title": "Other Organizations", "icon": "business", "path": "/utilities/other-organizations" },
+   
     { "id": "electronic-print-media", "title": "Electronic & Print Media", "icon": "tv", "path": "/utilities/electronic-print-media" },
     { "id": "printing-press", "title": "Printing Press & Others", "icon": "print", "path": "/utilities/printing-press" },
     { "id": "international-org", "title": "International Org.", "icon": "globe", "path": "/utilities/international-org" },
     { "id": "foreign-embassy", "title": "Foreign Embassy", "icon": "flag", "path": "/utilities/foreign-embassy" },
-    { "id": "ag-research-org", "title": "Ag. Research Org.", "icon": "flask", "path": "/utilities/ag-research-org" },
+    
     { "id": "important-number", "title": "Important Number", "icon": "alert", "path": "/utilities/important-number" },
     { "id": "electricity-water-gas-tel", "title": "Electricity, Water, Gas, Tel", "icon": "construct", "path": "/utilities/electricity-water-gas-tel" }
   ],
@@ -442,6 +443,10 @@
   ],
 
   "utilities": {
+    "jstu-clubs" :  [
+      { "id": "u-clubs-1", "name": "JSTU Robotics Club", "phone": "01700000810" },
+      { "id": "u-clubs-2", "name": "Janata Bank - Campus Branch", "phone": "01700000811" }
+    ], 
     "bank": [
       { "id": "u-bank-1", "name": "Sonali Bank - University Branch", "phone": "01700000810" },
       { "id": "u-bank-2", "name": "Janata Bank - Campus Branch", "phone": "01700000811" }
