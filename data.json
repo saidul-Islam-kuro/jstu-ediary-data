@@ -444,8 +444,8 @@
 
   "utilities": {
     "jstu-clubs" :  [
-      { "id": "u-clubs-1", "name": "JSTU Robotics Club", "phone": "01700000810" },
-      { "id": "u-clubs-2", "name": "Janata Bank - Campus Branch", "phone": "01700000811" }
+      { "id": "u-clubs-1", "name": "JSTU Robotics Club", "phone": "01700000810" }
+      
     ], 
     "bank": [
       { "id": "u-bank-1", "name": "Sonali Bank - University Branch", "phone": "01700000810" },
