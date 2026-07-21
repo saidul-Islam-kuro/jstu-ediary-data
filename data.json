@@ -42,11 +42,11 @@
       "icon": "construct",
       "dean": {
         "id": "p-dean-eng",
-        "name": "Dr. Placeholder Dean - Engineering",
+        "name": "N/A",
         "role": "Dean",
-        "mobile": "01700000001",
-        "officePhone": "101",
-        "email": "dean.eng@jstu.ac.bd"
+        "mobile": "N/A",
+        "officePhone": "",
+        "email": ""
       },
       "departments": [
         {
@@ -167,11 +167,11 @@
       "icon": "globe",
       "dean": {
         "id": "p-dean-earth",
-        "name": "Dr. Placeholder Dean - Earth Science",
+        "name": "N/A",
         "role": "Dean",
-        "mobile": "01700000030",
-        "officePhone": "401",
-        "email": "dean.earth@jstu.ac.bd"
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
       },
       "departments": [
         {
@@ -201,11 +201,11 @@
       "icon": "briefcase",
       "dean": {
         "id": "p-dean-bus",
-        "name": "Dr. Placeholder Dean - Business",
+        "name": "N/A",
         "role": "Dean",
-        "mobile": "01700000040",
-        "officePhone": "501",
-        "email": "dean.bus@jstu.ac.bd"
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
       },
       "departments": [
         {
@@ -235,11 +235,11 @@
       "icon": "people",
       "dean": {
         "id": "p-dean-social",
-        "name": "Dr. Placeholder Dean - Social Science",
+        "name": "N/A",
         "role": "Dean",
-        "mobile": "01700000050",
-        "officePhone": "601",
-        "email": "dean.social@jstu.ac.bd"
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
       },
       "departments": [
         {
@@ -277,8 +277,7 @@
         "mobile": "N/A",
         "officePhone": "+8802-223377501",
         "email": "vc@jstu.ac.bd",
-        "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/vcjstu.jpg"
-      },
+        "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/vcjstu.jpg"},
       "officers": [
        
         { "id": "p-vc-2", "name": "MD> Sohag Sarkar", "role": "Personal Officer", "mobile": "01719340940", "email": "sohag@jstu.ac.bd" }
