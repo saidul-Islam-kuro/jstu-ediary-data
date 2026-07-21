@@ -54,16 +54,19 @@
           "title": "Department of Electrical and Electronics Engineering",
           "head": {
             "id": "p-head-eee",
-            "name": "Dr. Placeholder Head - EEE",
-            "role": "Head",
-            "mobile": "01700000100",
-            "officePhone": "102",
-            "email": "head.eee@jstu.ac.bd"
+            "name": "Md. Shizer Rahman",
+            "role": "Chairman",
+            "mobile": "01793781079",
+            "officePhone": "xxx",
+            "email": "shizer@jstu.ac.bd"
+            "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/shijar_sirimg.jpg"
           },
           "teachers": [
-            { "id": "p-teacher-eee-1", "name": "Dr. Placeholder Teacher 1", "role": "Professor", "mobile": "01700000101", "email": "teacher1.eee@jstu.ac.bd" },
-            { "id": "p-teacher-eee-2", "name": "Dr. Placeholder Teacher 2", "role": "Associate Professor", "mobile": "01700000102", "email": "teacher2.eee@jstu.ac.bd" },
-            { "id": "p-teacher-eee-3", "name": "Dr. Placeholder Teacher 3", "role": "Assistant Professor", "mobile": "01700000103", "email": "teacher3.eee@jstu.ac.bd" }
+            { "id": "p-teacher-eee-1", "name": "Dr. Md. Rasidul Islam", "role": "Assistant Professor", "mobile": "01737357255", "email": "rasidul@bsfmstu.ac.bd" },
+            { "id": "p-teacher-eee-2", "name": "Md. Mahfuzul Haque", "role": "Assistant Professor", "mobile": "8801521430661", "email": "mahfuzul@jstu.ac.bd" },
+            { "id": "p-teacher-eee-3", "name": "Md. Amimul Ihsan", "role": "Lecturer", "mobile": "01838215347", "email": "amimul@jstu.ac.bd" },
+            { "id": "p-teacher-eee-4", "name": "Md. Rezwanur Rahman", "role": "Lecturer", "mobile": "01721919495", "email": "rezwan@jstu.ac.bd" },
+            { "id": "p-teacher-eee-5", "name": "Afsana Sharmin Shanta", "role": "Lecturer", "mobile": "01537431883", "email": "afsana@jstu.ac.bd" }
           ],
           "staff": [
             { "id": "p-staff-eee-1", "name": "Placeholder Staff 1", "role": "Lab Technician", "mobile": "01700000104", "email": "staff1.eee@jstu.ac.bd" }
