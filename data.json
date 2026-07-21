@@ -62,7 +62,7 @@
             "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/shijar_sirimg.jpg"
           },
           "teachers": [
-            { "id": "p-teacher-eee-1", "name": "Dr. Md. Rasidul Islam", "role": "Assistant Professor", "mobile": "01737357255", "email": "rasidul@bsfmstu.ac.bd" },
+            { "id": "p-teacher-eee-1", "name": "Dr. Md. Rasidul Islam", "role": "Assistant Professor", "mobile": "01737357255", "email": "rasidul@bsfmstu.ac.bd","photo":"https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/eee-teacher-1.jpg" },
             { "id": "p-teacher-eee-2", "name": "Md. Mahfuzul Haque", "role": "Assistant Professor", "mobile": "8801521430661", "email": "mahfuzul@jstu.ac.bd" },
             { "id": "p-teacher-eee-3", "name": "Md. Amimul Ihsan", "role": "Lecturer", "mobile": "01838215347", "email": "amimul@jstu.ac.bd" },
             { "id": "p-teacher-eee-4", "name": "Md. Rezwanur Rahman", "role": "Lecturer", "mobile": "01721919495", "email": "rezwan@jstu.ac.bd" },
