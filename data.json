@@ -15,7 +15,7 @@
   ],
 
   "moreContacts": [
-    { "id": "jstu-clubs", "title": "JSTU Clubs & Society", "icon": "people-circle", "path": "/utilities/jstu-clubs" },
+    { "id": "jstu-clubs", "title": "JSTU Clubs & Society", "icon": "people", "path": "/utilities/jstu-clubs" },
     { "id": "bank", "title": "Bank", "icon": "card", "path": "/utilities/bank" },
     { "id": "hospital", "title": "Hospital", "icon": "medical", "path": "/utilities/hospital" },
     { "id": "reporters", "title": "Reporters", "icon": "newspaper", "path": "/utilities/reporters" },
