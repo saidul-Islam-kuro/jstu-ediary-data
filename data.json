@@ -272,7 +272,7 @@
       "icon": "school",
       "head": { "id": "p-proctor", "name": "N/A", "role": "Proctor", "mobile": "01711364467", "officePhone": "N/A", "email": "proctor@jstu.ac.bd" },
       "officers": [
-        { "id": "p-proc-1", "name": "DR. Abdus sattar", "role": "Assistant Proctor", "mobile": "01712585277", "email": "sattar@jstu.ac.bd" }
+        { "id": "p-proc-1", "name": "DR. Abdus Sattar", "role": "Assistant Proctor", "mobile": "01712585277", "email": "sattar@jstu.ac.bd" }
       ]
     }
   ],
