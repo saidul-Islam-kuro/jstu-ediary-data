@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: saidul-Islam-kuro/jstu-ediary-data
   branch: main                                 # must match the branch in REMOTE_DATA_URL
 
