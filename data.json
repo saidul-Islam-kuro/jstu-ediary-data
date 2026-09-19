@@ -1,75 +1,170 @@
 {
-  "meta": {
-    "universityName": "Jamalpur Science and Technology University",
-    "shortName": "JSTU eDiary",
-    "headerPhoto": "https://raw.githubusercontent.com/KURO-RGBN/JSTU-CGPA-CALCULATOR/main/campus-background.jpg"
-  },
-  "mainCategories": [
-    { "id": "administration", "title": "Administration", "icon": "business", "path": "/administration" },
-    { "id": "faculties", "title": "Faculties", "icon": "school", "path": "/faculties" },
-    { "id": "halls", "title": "Halls", "icon": "home", "path": "/halls" },
-    { "id": "institutes", "title": "Institute", "icon": "library", "path": "/institutes" },
-    { "id": "sections", "title": "Sections", "icon": "grid", "path": "/sections" },
-    { "id": "emergency", "title": "Emergency", "icon": "alert-circle", "path": "/emergency", "isEmergency": true }
-  ],
-  "moreContacts": [
-    { "id": "jstu-clubs", "title": "JSTU Clubs & Society", "icon": "people-outline", "path": "/utilities/jstu-clubs" },
-    { "id": "bank", "title": "Bank", "icon": "card", "path": "/utilities/bank" },
-    { "id": "hospital", "title": "Hospital", "icon": "medical", "path": "/utilities/hospital" },
-    { "id": "reporters", "title": "Reporters", "icon": "newspaper", "path": "/utilities/reporters" },
-    { "id": "pharmacy", "title": "Pharmacy", "icon": "medkit", "path": "/utilities/pharmacy" },
-    { "id": "army-rab-police", "title": "Army, RAB & Police", "icon": "shield", "path": "/utilities/army-rab-police" },
-    { "id": "public-universities", "title": "Public Universities", "icon": "school", "path": "/utilities/public-universities" },
-    { "id": "other-councils", "title": "Other Councils", "icon": "people", "path": "/utilities/other-councils" },
-    { "id": "edu-ministry", "title": "Edu. Ministry", "icon": "business", "path": "/utilities/edu-ministry" },
-    { "id": "railway", "title": "Railway", "icon": "train", "path": "/utilities/railway" },
-    { "id": "electronic-print-media", "title": "Electronic & Print Media", "icon": "tv", "path": "/utilities/electronic-print-media" },
-    { "id": "printing-press", "title": "Printing Press & Others", "icon": "print", "path": "/utilities/printing-press" },
-    { "id": "international-org", "title": "International Org.", "icon": "globe", "path": "/utilities/international-org" },
-    { "id": "foreign-embassy", "title": "Foreign Embassy", "icon": "flag", "path": "/utilities/foreign-embassy" },
-    { "id": "important-number", "title": "Important Number", "icon": "alert", "path": "/utilities/important-number" },
-    { "id": "electricity-water-gas-tel", "title": "Electricity, Water, Gas, Tel", "icon": "construct", "path": "/utilities/electricity-water-gas-tel" }
-  ],
   "faculties": [
     {
       "id": "fac-engineering",
       "title": "Faculty of Engineering",
       "icon": "construct",
-      "dean": { "id": "p-dean-eng", "name": "N/A", "role": "Dean", "mobile": "N/A", "officePhone": "", "email": "" },
+      "dean": {
+        "id": "p-dean-eng",
+        "name": "N/A",
+        "role": "Dean",
+        "mobile": "N/A",
+        "officePhone": "",
+        "email": ""
+      },
       "departments": [
         {
           "id": "eee",
           "title": "Department of Electrical and Electronics Engineering",
-          "head": { "id": "p-head-eee", "name": "Md. Shizer Rahman", "role": "Chairman", "mobile": "01793781079", "officePhone": "xxx", "email": "shizer@jstu.ac.bd", "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/shijar_sirimg.jpg" },
+          "head": {
+            "id": "p-head-eee",
+            "name": "Md. Shizer Rahman",
+            "role": "Chairman",
+            "mobile": "01793781079",
+            "officePhone": "xxx",
+            "email": "shizer@jstu.ac.bd",
+            "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/shijar_sirimg.jpg"
+          },
           "teachers": [
-            { "id": "p-teacher-eee-1", "name": "Md. Shizer Rahman", "role": "Assistant Professor", "mobile": "01793781079", "email": "shizer@jstu.ac.bd", "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/shijar_sirimg.jpg" },
-            { "id": "p-teacher-eee-2", "name": "Dr. Md. Rasidul Islam (Study Leave)", "role": "Assistant Professor", "mobile": "01737357255", "email": "rasidul@bsfmstu.ac.bd", "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/eee-teacher-1.jpg" },
-            { "id": "p-teacher-eee-3", "name": "Md. Mahfuzul Haque", "role": "Assistant Professor", "mobile": "8801521430661", "email": "mahfuzul@jstu.ac.bd" },
-            { "id": "p-teacher-eee-4", "name": "Md. Amimul Ihsan", "role": "Lecturer", "mobile": "01838215347", "email": "amimul@jstu.ac.bd" },
-            { "id": "p-teacher-eee-5", "name": "Md. Rezwanur Rahman", "role": "Lecturer", "mobile": "01721919495", "email": "rezwan@jstu.ac.bd" },
-            { "id": "p-teacher-eee-6", "name": "Jannatul Ambia Akhi", "role": "Lecturer", "mobile": "01993239963", "email": "akhi@jstu.ac.bd" },
-            { "id": "p-teacher-eee-7", "name": "Afsana Sharmin Shanta", "role": "Lecturer", "mobile": "01537431883", "email": "afsana@jstu.ac.bd" }
+            {
+              "id": "p-teacher-eee-1",
+              "name": "Md. Shizer Rahman",
+              "role": "Assistant Professor",
+              "mobile": "01793781079",
+              "email": "shizer@jstu.ac.bd",
+              "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/shijar_sirimg.jpg"
+            },
+            {
+              "id": "p-teacher-eee-2",
+              "name": "Dr. Md. Rasidul Islam (Study Leave)",
+              "role": "Assistant Professor",
+              "mobile": "01737357255",
+              "email": "rasidul@bsfmstu.ac.bd",
+              "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/eee-teacher-1.jpg"
+            },
+            {
+              "id": "p-teacher-eee-3",
+              "name": "Md. Mahfuzul Haque",
+              "role": "Assistant Professor",
+              "mobile": "8801521430661",
+              "email": "mahfuzul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-eee-4",
+              "name": "Md. Amimul Ihsan",
+              "role": "Lecturer",
+              "mobile": "01838215347",
+              "email": "amimul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-eee-5",
+              "name": "Md. Rezwanur Rahman",
+              "role": "Lecturer",
+              "mobile": "01721919495",
+              "email": "rezwan@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-eee-6",
+              "name": "Jannatul Ambia Akhi",
+              "role": "Lecturer",
+              "mobile": "01993239963",
+              "email": "akhi@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-eee-7",
+              "name": "Afsana Sharmin Shanta",
+              "role": "Lecturer",
+              "mobile": "01537431883",
+              "email": "afsana@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-eee-1", "name": "Shanto Mia", "role": "Lab Technician", "mobile": "01746411341", "email": "N/A" },
-            { "id": "p-staff-eee-2", "name": "Md. Shafiul Azam", "role": "Field Attendant", "mobile": "01914515501", "email": "N/A" }
+            {
+              "id": "p-staff-eee-1",
+              "name": "Shanto Mia",
+              "role": "Lab Technician",
+              "mobile": "01746411341",
+              "email": "N/A"
+            },
+            {
+              "id": "p-staff-eee-2",
+              "name": "Md. Shafiul Azam",
+              "role": "Field Attendant",
+              "mobile": "01914515501",
+              "email": "N/A"
+            }
           ]
         },
         {
           "id": "cse",
           "title": "Department of Computer Science Engineering",
-          "head": { "id": "p-head-cse", "name": "Sujit Roy", "role": "Chairman", "mobile": "01746952150", "officePhone": "N/A", "email": "sujit@jstu.ac.bd" },
+          "head": {
+            "id": "p-head-cse",
+            "name": "Sujit Roy",
+            "role": "Chairman",
+            "mobile": "01746952150",
+            "officePhone": "N/A",
+            "email": "sujit@jstu.ac.bd"
+          },
           "teachers": [
-            { "id": "p-teacher-cse-1", "name": "Sujit Roy", "role": "Assistant Professor", "mobile": "01746952150", "email": "sujit@jstu.ac.bd" },
-            { "id": "p-teacher-cse-2", "name": "Dr. Mahmudul Alam", "role": "Assistant Professor", "mobile": "+8801954218742", "email": "mahmudul@jstu.ac.bd" },
-            { "id": "p-teacher-cse-3", "name": "Md. Humaun Kabir (Study leave)", "role": "Assistant Professor", "mobile": "01732303155", "email": "humaun.cse@jstu.ac.bd" },
-            { "id": "p-teacher-cse-4", "name": "Mohammad Hasan", "role": "Assistant Professor", "mobile": "01767954884", "email": "hasan.cse@jstu.ac.bd" },
-            { "id": "p-teacher-cse-5", "name": "Md. Sydur Rahman", "role": "Lecturer", "mobile": "01721915157", "email": "sydur.cse@jstu.ac.bd" },
-            { "id": "p-teacher-cse-6", "name": "Md. Khabir Uddin Ahamed", "role": "Lecturer", "mobile": "01674877632", "email": "khabir.cse@jstu.ac.bd" }
+            {
+              "id": "p-teacher-cse-1",
+              "name": "Sujit Roy",
+              "role": "Assistant Professor",
+              "mobile": "01746952150",
+              "email": "sujit@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-cse-2",
+              "name": "Dr. Mahmudul Alam",
+              "role": "Assistant Professor",
+              "mobile": "+8801954218742",
+              "email": "mahmudul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-cse-3",
+              "name": "Md. Humaun Kabir (Study leave)",
+              "role": "Assistant Professor",
+              "mobile": "01732303155",
+              "email": "humaun.cse@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-cse-4",
+              "name": "Mohammad Hasan",
+              "role": "Assistant Professor",
+              "mobile": "01767954884",
+              "email": "hasan.cse@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-cse-5",
+              "name": "Md. Sydur Rahman",
+              "role": "Lecturer",
+              "mobile": "01721915157",
+              "email": "sydur.cse@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-cse-6",
+              "name": "Md. Khabir Uddin Ahamed",
+              "role": "Lecturer",
+              "mobile": "01674877632",
+              "email": "khabir.cse@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-cse-1", "name": "Md. Tajul Islam Imran", "role": "Senior Lab Technician", "mobile": "01689834706", "email": "cse.dept@jstu.ac.bd" },
-            { "id": "p-staff-cse-2", "name": "Md Mamun Rana", "role": "Lab Attendant", "mobile": "01643236024", "email": "cse.dept@jstu.ac.bd" }
+            {
+              "id": "p-staff-cse-1",
+              "name": "Md. Tajul Islam Imran",
+              "role": "Senior Lab Technician",
+              "mobile": "01689834706",
+              "email": "cse.dept@jstu.ac.bd"
+            },
+            {
+              "id": "p-staff-cse-2",
+              "name": "Md Mamun Rana",
+              "role": "Lab Attendant",
+              "mobile": "01643236024",
+              "email": "cse.dept@jstu.ac.bd"
+            }
           ]
         }
       ]
@@ -78,23 +173,85 @@
       "id": "fac-science",
       "title": "Faculty of Science",
       "icon": "flask",
-      "dean": { "id": "p-dean-sci", "name": "N/A", "role": "Dean", "mobile": "N/A", "officePhone": "", "email": "N/A" },
+      "dean": {
+        "id": "p-dean-sci",
+        "name": "N/A",
+        "role": "Dean",
+        "mobile": "N/A",
+        "officePhone": "",
+        "email": "N/A"
+      },
       "departments": [
         {
           "id": "math",
           "title": "Department of Mathematics",
-          "head": { "id": "p-head-math", "name": "Dr. Muhammad Shahjalal", "role": "Chairman", "mobile": "01711571195", "officePhone": "N/A", "email": "shahjalal@jstu.ac.bd" },
+          "head": {
+            "id": "p-head-math",
+            "name": "Dr. Muhammad Shahjalal",
+            "role": "Chairman",
+            "mobile": "01711571195",
+            "officePhone": "N/A",
+            "email": "shahjalal@jstu.ac.bd"
+          },
           "teachers": [
-            { "id": "p-teacher-math-1", "name": "Dr. Muhammad Shahjalal", "role": "Assistant Professor", "mobile": "01711571195", "email": "shahjalal@jstu.ac.bd" },
-            { "id": "p-teacher-math-2", "name": "Ripan Roy", "role": "Assistant Professor", "mobile": "01719890179", "email": "ripan@jstu.ac.bd" },
-            { "id": "p-teacher-math-3", "name": "Md. Nazmul Hossain", "role": "Assistant Professor", "mobile": "01735145896", "email": "nazmul@jstu.ac.bd" },
-            { "id": "p-teacher-math-4", "name": "Mohammad Abul Heyath Sajib", "role": "Assistant Professor", "mobile": "01776329841", "email": "mahsajib.math@jstu.ac.bd" },
-            { "id": "p-teacher-math-5", "name": "Tozam Hossain", "role": "Assistant Professor", "mobile": "01754158475", "email": "tozam@jstu.ac.bd" },
-            { "id": "p-teacher-math-6", "name": "Ayantika Ghosh", "role": "Lecturer", "mobile": "01782205555", "email": "ayantika@jstu.ac.bd" },
-            { "id": "p-teacher-math-7", "name": "Sharaban Tahura", "role": "Lecturer", "mobile": "01742108441", "email": "sharabanmath10058@jstu.ac.bd" }
+            {
+              "id": "p-teacher-math-1",
+              "name": "Dr. Muhammad Shahjalal",
+              "role": "Assistant Professor",
+              "mobile": "01711571195",
+              "email": "shahjalal@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-math-2",
+              "name": "Ripan Roy",
+              "role": "Assistant Professor",
+              "mobile": "01719890179",
+              "email": "ripan@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-math-3",
+              "name": "Md. Nazmul Hossain",
+              "role": "Assistant Professor",
+              "mobile": "01735145896",
+              "email": "nazmul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-math-4",
+              "name": "Mohammad Abul Heyath Sajib",
+              "role": "Assistant Professor",
+              "mobile": "01776329841",
+              "email": "mahsajib.math@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-math-5",
+              "name": "Tozam Hossain",
+              "role": "Assistant Professor",
+              "mobile": "01754158475",
+              "email": "tozam@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-math-6",
+              "name": "Ayantika Ghosh",
+              "role": "Lecturer",
+              "mobile": "01782205555",
+              "email": "ayantika@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-math-7",
+              "name": "Sharaban Tahura",
+              "role": "Lecturer",
+              "mobile": "01742108441",
+              "email": "sharabanmath10058@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-math-1", "name": "Anam-E-Rabbi", "role": "Office Assistant Cum Computer Typist", "mobile": "01836785010", "email": "N/A" }
+            {
+              "id": "p-staff-math-1",
+              "name": "Anam-E-Rabbi",
+              "role": "Office Assistant Cum Computer Typist",
+              "mobile": "01836785010",
+              "email": "N/A"
+            }
           ]
         }
       ]
@@ -103,33 +260,155 @@
       "id": "fac-agri-life",
       "title": "Faculty of Agriculture and Life Science",
       "icon": "leaf",
-      "dean": { "id": "p-dean-agri", "name": "Dr. Placeholder Dean - Agriculture", "role": "Dean", "mobile": "01700000020", "officePhone": "301", "email": "dean.agri@jstu.ac.bd" },
+      "dean": {
+        "id": "p-dean-agri",
+        "name": "Dr. Placeholder Dean - Agriculture",
+        "role": "Dean",
+        "mobile": "01700000020",
+        "officePhone": "301",
+        "email": "dean.agri@jstu.ac.bd"
+      },
       "departments": [
         {
           "id": "fisheries",
           "title": "Department of Fisheries",
-          "head": { "id": "p-head-fish", "name": "Dr. Mohammad Shadiqur Rahman", "role": "Chairman", "mobile": "+88 01711364467", "officePhone": "", "email": "shadiqur@jstu.ac.bd" },
+          "head": {
+            "id": "p-head-fish",
+            "name": "Dr. Mohammad Shadiqur Rahman",
+            "role": "Chairman",
+            "mobile": "+88 01711364467",
+            "officePhone": "",
+            "email": "shadiqur@jstu.ac.bd"
+          },
           "teachers": [
-            { "id": "p-teacher-fish-1", "name": "Dr. Mohammad Shadiqur Rahman", "role": "Associate Professor", "mobile": "+88 01711364467", "email": "shadiqur@jstu.ac.bd" },
-            { "id": "p-teacher-fish-2", "name": "Dr. Abdus Satter", "role": "Associate Professor", "mobile": "01712585277", "email": "satter@jstu.ac.bd" },
-            { "id": "p-teacher-fish-3", "name": "Dr. Muhammad Forhad Ali", "role": "Associate Professor", "mobile": "01712789928", "email": "forhadali@jstu.ac.bd" },
-            { "id": "p-teacher-fish-4", "name": "Dr. Mahmudul Hasan", "role": "Associate Professor", "mobile": "01714892205", "email": "mhasan@jstu.ac.bd" },
-            { "id": "p-teacher-fish-5", "name": "Dr. Mousumi Akter", "role": "Associate Professor", "mobile": "01722917152", "email": "mousumi@jstu.ac.bd" },
-            { "id": "p-teacher-fish-6", "name": "Mohammad Rafiqul Bari", "role": "Assistant Professor", "mobile": "01711961224", "email": "rafiqulbari@jstu.ac.bd" },
-            { "id": "p-teacher-fish-7", "name": "Raihana Rahman", "role": "Assistant Professor", "mobile": "01922698599", "email": "raihana@jstu.ac.bd" },
-            { "id": "p-teacher-fish-8", "name": "Mizanur Rahman", "role": "Assistant Professor", "mobile": "01721432740", "email": "mizan@jstu.ac.bd" },
-            { "id": "p-teacher-fish-9", "name": "Md. Fakhrul Islam", "role": "Assistant Professor", "mobile": "01717255447", "email": "fakhrul@jstu.ac.bd" },
-            { "id": "p-teacher-fish-10", "name": "Syed Ariful Haque", "role": "Assistant Professor", "mobile": "+8801670690909", "email": "sahaque@jstu.ac.bd" },
-            { "id": "p-teacher-fish-11", "name": "Partha Sarathi Das", "role": "Assistant Professor", "mobile": "01716762384", "email": "partha@jstu.ac.bd" },
-            { "id": "p-teacher-fish-12", "name": "Md. Mokhlasur Rahman", "role": "Assistant Professor", "mobile": "01722435444", "email": "mokhlasur@jstu.ac.bd" },
-            { "id": "p-teacher-fish-13", "name": "Sumit Kumer Paul", "role": "Assistant Professor", "mobile": "01710298989", "email": "sumit@jstu.ac.bd" },
-            { "id": "p-teacher-fish-14", "name": "Runa Akther Juthi", "role": "Assistant Professor", "mobile": "01711966270", "email": "runa@jstu.ac.bd" },
-            { "id": "p-teacher-fish-15", "name": "Sumaiya Binte Salam", "role": "Lecturer", "mobile": "01757417002", "email": "sumaiya@jstu.ac.bd" },
-            { "id": "p-teacher-fish-16", "name": "Mahfuzul Alam Mithu", "role": "Lecturer", "mobile": "01677853158", "email": "mahfuzmithu@jstu.ac.bd" }
+            {
+              "id": "p-teacher-fish-1",
+              "name": "Dr. Mohammad Shadiqur Rahman",
+              "role": "Associate Professor",
+              "mobile": "+88 01711364467",
+              "email": "shadiqur@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-2",
+              "name": "Dr. Abdus Satter",
+              "role": "Associate Professor",
+              "mobile": "01712585277",
+              "email": "satter@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-3",
+              "name": "Dr. Muhammad Forhad Ali",
+              "role": "Associate Professor",
+              "mobile": "01712789928",
+              "email": "forhadali@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-4",
+              "name": "Dr. Mahmudul Hasan",
+              "role": "Associate Professor",
+              "mobile": "01714892205",
+              "email": "mhasan@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-5",
+              "name": "Dr. Mousumi Akter",
+              "role": "Associate Professor",
+              "mobile": "01722917152",
+              "email": "mousumi@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-6",
+              "name": "Mohammad Rafiqul Bari",
+              "role": "Assistant Professor",
+              "mobile": "01711961224",
+              "email": "rafiqulbari@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-7",
+              "name": "Raihana Rahman",
+              "role": "Assistant Professor",
+              "mobile": "01922698599",
+              "email": "raihana@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-8",
+              "name": "Mizanur Rahman",
+              "role": "Assistant Professor",
+              "mobile": "01721432740",
+              "email": "mizan@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-9",
+              "name": "Md. Fakhrul Islam",
+              "role": "Assistant Professor",
+              "mobile": "01717255447",
+              "email": "fakhrul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-10",
+              "name": "Syed Ariful Haque",
+              "role": "Assistant Professor",
+              "mobile": "+8801670690909",
+              "email": "sahaque@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-11",
+              "name": "Partha Sarathi Das",
+              "role": "Assistant Professor",
+              "mobile": "01716762384",
+              "email": "partha@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-12",
+              "name": "Md. Mokhlasur Rahman",
+              "role": "Assistant Professor",
+              "mobile": "01722435444",
+              "email": "mokhlasur@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-13",
+              "name": "Sumit Kumer Paul",
+              "role": "Assistant Professor",
+              "mobile": "01710298989",
+              "email": "sumit@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-14",
+              "name": "Runa Akther Juthi",
+              "role": "Assistant Professor",
+              "mobile": "01711966270",
+              "email": "runa@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-15",
+              "name": "Sumaiya Binte Salam",
+              "role": "Lecturer",
+              "mobile": "01757417002",
+              "email": "sumaiya@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-fish-16",
+              "name": "Mahfuzul Alam Mithu",
+              "role": "Lecturer",
+              "mobile": "01677853158",
+              "email": "mahfuzmithu@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-fish-1", "name": "Rasheda Begum", "role": "Computer Operator", "mobile": "01913705393", "email": "rasheda557@gmail.com" },
-            { "id": "p-staff-fish-2", "name": "MD. Humayun Kabir", "role": "Office Assistant Cum Computer Typist", "mobile": "01912497188", "email": "N/A" }
+            {
+              "id": "p-staff-fish-1",
+              "name": "Rasheda Begum",
+              "role": "Computer Operator",
+              "mobile": "01913705393",
+              "email": "rasheda557@gmail.com"
+            },
+            {
+              "id": "p-staff-fish-2",
+              "name": "MD. Humayun Kabir",
+              "role": "Office Assistant Cum Computer Typist",
+              "mobile": "01912497188",
+              "email": "N/A"
+            }
           ]
         }
       ]
@@ -138,19 +417,57 @@
       "id": "fac-earth",
       "title": "Faculty of Earth Science",
       "icon": "globe",
-      "dean": { "id": "p-dean-earth", "name": "N/A", "role": "Dean", "mobile": "", "officePhone": "", "email": "" },
+      "dean": {
+        "id": "p-dean-earth",
+        "name": "N/A",
+        "role": "Dean",
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
+      },
       "departments": [
         {
           "id": "geology",
           "title": "Department of Geology",
-          "head": { "id": "p-head-geo", "name": "MD. Nazmul Hossein", "role": "Chairman", "mobile": "01735145896", "officePhone": "", "email": "nazmul@jstu.ac.bd" },
+          "head": {
+            "id": "p-head-geo",
+            "name": "MD. Nazmul Hossein",
+            "role": "Chairman",
+            "mobile": "01735145896",
+            "officePhone": "",
+            "email": "nazmul@jstu.ac.bd"
+          },
           "teachers": [
-            { "id": "p-teacher-geo-1", "name": "Dr. Mrinal Kanti Roy Chowdhury", "role": "Professor", "mobile": "01712557480", "email": "mkr_c@yahoo.com" },
-            { "id": "p-teacher-geo-2", "name": "Waheda Akhter", "role": "Lecturer", "mobile": "01774880210", "email": "waheda@jstu.ac.bd" },
-            { "id": "p-teacher-geo-3", "name": "Ishrat Jahan Eva", "role": "Lecturer", "mobile": "01794421080", "email": "eva@jstu.ac.bd" }
+            {
+              "id": "p-teacher-geo-1",
+              "name": "Dr. Mrinal Kanti Roy Chowdhury",
+              "role": "Professor",
+              "mobile": "01712557480",
+              "email": "mkr_c@yahoo.com"
+            },
+            {
+              "id": "p-teacher-geo-2",
+              "name": "Waheda Akhter",
+              "role": "Lecturer",
+              "mobile": "01774880210",
+              "email": "waheda@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-geo-3",
+              "name": "Ishrat Jahan Eva",
+              "role": "Lecturer",
+              "mobile": "01794421080",
+              "email": "eva@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-geo-1", "name": "Maleha Akter", "role": "Computer Operator", "mobile": "01728418733", "email": "malaha8733@gmail.com" }
+            {
+              "id": "p-staff-geo-1",
+              "name": "Maleha Akter",
+              "role": "Computer Operator",
+              "mobile": "01728418733",
+              "email": "malaha8733@gmail.com"
+            }
           ]
         }
       ]
@@ -159,22 +476,78 @@
       "id": "fac-business",
       "title": "Faculty of Business Studies",
       "icon": "briefcase",
-      "dean": { "id": "p-dean-bus", "name": "N/A", "role": "Dean", "mobile": "", "officePhone": "", "email": "" },
+      "dean": {
+        "id": "p-dean-bus",
+        "name": "N/A",
+        "role": "Dean",
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
+      },
       "departments": [
         {
           "id": "management",
           "title": "Department of Management",
-          "head": { "id": "p-head-mgmt", "name": "Md. Enamul Haque", "role": "Chairman", "mobile": "01719409070", "officePhone": "", "email": "enamul.emt7@jstu.ac.bd" },
+          "head": {
+            "id": "p-head-mgmt",
+            "name": "Md. Enamul Haque",
+            "role": "Chairman",
+            "mobile": "01719409070",
+            "officePhone": "",
+            "email": "enamul.emt7@jstu.ac.bd"
+          },
           "teachers": [
-            { "id": "p-teacher-mgmt-1", "name": "Md. Enamul Haque", "role": "Assistant Professor", "mobile": "01719409070", "email": "enamul.emt7@jstu.ac.bd" },
-            { "id": "p-teacher-mgmt-2", "name": "S.M. Yusuf Ali", "role": "Assistant Professor", "mobile": "01917135060", "email": "yusufali@jstu.ac.bd" },
-            { "id": "p-teacher-mgmt-3", "name": "Md. Zahid Hasan", "role": "Assistant Professor", "mobile": "01750359036", "email": "zahid@jstu.ac.bd" },
-            { "id": "p-teacher-mgmt-4", "name": "Jannatul Fardous", "role": "Assistant Professor", "mobile": "01930693908", "email": "jannatul@jstu.ac.bd" },
-            { "id": "p-teacher-mgmt-5", "name": "ATIQUR RAHAMAN", "role": "Assistant Professor", "mobile": "+880 1829 222531", "email": "atiq.mgt@jstu.ac.bd" },
-            { "id": "p-teacher-mgmt-6", "name": "Rashedul Islam", "role": "Assistant Professor", "mobile": "01784652465", "email": "rashed.mgt@jstu.ac.bd" }
+            {
+              "id": "p-teacher-mgmt-1",
+              "name": "Md. Enamul Haque",
+              "role": "Assistant Professor",
+              "mobile": "01719409070",
+              "email": "enamul.emt7@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-mgmt-2",
+              "name": "S.M. Yusuf Ali",
+              "role": "Assistant Professor",
+              "mobile": "01917135060",
+              "email": "yusufali@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-mgmt-3",
+              "name": "Md. Zahid Hasan",
+              "role": "Assistant Professor",
+              "mobile": "01750359036",
+              "email": "zahid@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-mgmt-4",
+              "name": "Jannatul Fardous",
+              "role": "Assistant Professor",
+              "mobile": "01930693908",
+              "email": "jannatul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-mgmt-5",
+              "name": "ATIQUR RAHAMAN",
+              "role": "Assistant Professor",
+              "mobile": "+880 1829 222531",
+              "email": "atiq.mgt@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-mgmt-6",
+              "name": "Rashedul Islam",
+              "role": "Assistant Professor",
+              "mobile": "01784652465",
+              "email": "rashed.mgt@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-mgmt-1", "name": "MD. Aminul Islam", "role": "Office Assistant Cum Computer Typist", "mobile": "01727365697", "email": "N/A" }
+            {
+              "id": "p-staff-mgmt-1",
+              "name": "MD. Aminul Islam",
+              "role": "Office Assistant Cum Computer Typist",
+              "mobile": "01727365697",
+              "email": "N/A"
+            }
           ]
         }
       ]
@@ -183,23 +556,85 @@
       "id": "fac-social",
       "title": "Faculty of Social Science",
       "icon": "people",
-      "dean": { "id": "p-dean-social", "name": "N/A", "role": "Dean", "mobile": "", "officePhone": "", "email": "" },
+      "dean": {
+        "id": "p-dean-social",
+        "name": "N/A",
+        "role": "Dean",
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
+      },
       "departments": [
         {
           "id": "social-work",
           "title": "Department of Social Work",
-          "head": { "id": "p-head-sw", "name": "Md. Oly Ullah Chowdhury", "role": "Chairman", "mobile": "01777519355", "officePhone": "", "email": "chowdhuryoly@jstu.ac.bd" },
+          "head": {
+            "id": "p-head-sw",
+            "name": "Md. Oly Ullah Chowdhury",
+            "role": "Chairman",
+            "mobile": "01777519355",
+            "officePhone": "",
+            "email": "chowdhuryoly@jstu.ac.bd"
+          },
           "teachers": [
-            { "id": "p-teacher-sw-1", "name": "Md. Oly Ullah Chowdhury", "role": "Assistant Professor", "mobile": "01777519355", "email": "chowdhuryoly@jstu.ac.bd" },
-            { "id": "p-teacher-sw-2", "name": "AHM Mahbubur Rahman", "role": "Assistant Professor", "mobile": "01711243136", "email": "mahbub@bsfmstu.ac.bd" },
-            { "id": "p-teacher-sw-3", "name": "Md. Al Mamun Sarker", "role": "Assistant Professor", "mobile": "01716076966", "email": "mamuns@jstu.ac.bd" },
-            { "id": "p-teacher-sw-4", "name": "Dr. Most Ummay Hani Kulsum", "role": "Assistant Professor", "mobile": "01751629680", "email": "ummayhani@jstu.ac.bd" },
-            { "id": "p-teacher-sw-5", "name": "Imrul Kabir", "role": "Assistant Professor", "mobile": "01620737864", "email": "imrulkabir@jstu.ac.bd" },
-            { "id": "p-teacher-sw-6", "name": "Taiyeba Tabassum", "role": "Assistant Professor", "mobile": "01731010395", "email": "taiyebataba94@gmail.com" },
-            { "id": "p-teacher-sw-7", "name": "Hossain Mahmud", "role": "Lecturer", "mobile": "01718174303", "email": "mahmud@jstu.ac.bd" }
+            {
+              "id": "p-teacher-sw-1",
+              "name": "Md. Oly Ullah Chowdhury",
+              "role": "Assistant Professor",
+              "mobile": "01777519355",
+              "email": "chowdhuryoly@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-sw-2",
+              "name": "AHM Mahbubur Rahman",
+              "role": "Assistant Professor",
+              "mobile": "01711243136",
+              "email": "mahbub@bsfmstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-sw-3",
+              "name": "Md. Al Mamun Sarker",
+              "role": "Assistant Professor",
+              "mobile": "01716076966",
+              "email": "mamuns@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-sw-4",
+              "name": "Dr. Most Ummay Hani Kulsum",
+              "role": "Assistant Professor",
+              "mobile": "01751629680",
+              "email": "ummayhani@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-sw-5",
+              "name": "Imrul Kabir",
+              "role": "Assistant Professor",
+              "mobile": "01620737864",
+              "email": "imrulkabir@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-sw-6",
+              "name": "Taiyeba Tabassum",
+              "role": "Assistant Professor",
+              "mobile": "01731010395",
+              "email": "taiyebataba94@gmail.com"
+            },
+            {
+              "id": "p-teacher-sw-7",
+              "name": "Hossain Mahmud",
+              "role": "Lecturer",
+              "mobile": "01718174303",
+              "email": "mahmud@jstu.ac.bd"
+            }
           ],
           "staff": [
-            { "id": "p-staff-sw-1", "name": "MD. Toushadujjaman Apple", "role": "Office Assistant Cum Computer Typist", "mobile": "01975464720", "email": "applemarhj@gmail.com" }
+            {
+              "id": "p-staff-sw-1",
+              "name": "MD. Toushadujjaman Apple",
+              "role": "Office Assistant Cum Computer Typist",
+              "mobile": "01975464720",
+              "email": "applemarhj@gmail.com"
+            }
           ]
         }
       ]
@@ -208,27 +643,661 @@
       "id": "fac-unaffilated",
       "title": "Unaffiliated Faculty",
       "icon": "people",
-      "dean": { "id": "p-dean-unaffilated", "name": "N/A", "role": "", "mobile": "", "officePhone": "", "email": "" },
+      "dean": {
+        "id": "p-dean-unaffilated",
+        "name": "N/A",
+        "role": "",
+        "mobile": "",
+        "officePhone": "",
+        "email": ""
+      },
       "departments": [
         {
           "id": "depart-less",
           "title": "Interdisciplinary Teachers",
-          "head": { "id": "p-head-un", "name": "N/A", "role": "", "mobile": "", "officePhone": "", "email": "" },
+          "head": {
+            "id": "p-head-un",
+            "name": "N/A",
+            "role": "",
+            "mobile": "",
+            "officePhone": "",
+            "email": ""
+          },
           "teachers": [
-            { "id": "p-teacher-un-1", "name": "Prodyut Paul", "role": "Assistant Professor", "mobile": "01723557070", "email": "prodyut@bsfmstu.ac.bd" },
-            { "id": "p-teacher-un-2", "name": "Dr. Syed Nazmul Huda", "role": "Assistant Professor", "mobile": "+8801911282489", "email": "nazmul@jstu.ac.bd" },
-            { "id": "p-teacher-un-3", "name": "Md. Zahidul Alam", "role": "Assistant Professor", "mobile": "01710468062", "email": "zahidul@jstu.ac.bd" },
-            { "id": "p-teacher-un-4", "name": "ELIAS UDDIN", "role": "Lecturer", "mobile": "01700000602", "email": "teacher2.sw@jstu.ac.bd" },
-            { "id": "p-teacher-un-5", "name": "SUJON KUMAR MITRO", "role": "Lecturer", "mobile": "+880 1737871354", "email": "skmitro@jstu.ac.bd" },
-            { "id": "p-teacher-un-6", "name": "Samiron Kumar", "role": "Lecturer", "mobile": "01625754869", "email": "samironkumarskg@jstu.ac.bd" },
-            { "id": "p-teacher-un-7", "name": "Tauhfa Mahanur", "role": "Lecturer", "mobile": "01794709316", "email": "mahanurtaufa@jstu.ac.bd" },
-            { "id": "p-teacher-un-8", "name": "Helal Uddin", "role": "Lecturer", "mobile": "01820077057", "email": "helal@jstu.ac.bd" },
-            { "id": "p-teacher-un-9", "name": "Suraiya Sultana", "role": "Lecturer", "mobile": "01706547493", "email": "suraiya@jstu.ac.bd" },
-            { "id": "p-teacher-un-10", "name": "Md. Belal Hossen", "role": "Lecturer", "mobile": "01780571312", "email": "belalhossen@jstu.ac.bd" }
+            {
+              "id": "p-teacher-un-1",
+              "name": "Prodyut Paul",
+              "role": "Assistant Professor",
+              "mobile": "01723557070",
+              "email": "prodyut@bsfmstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-2",
+              "name": "Dr. Syed Nazmul Huda",
+              "role": "Assistant Professor",
+              "mobile": "+8801911282489",
+              "email": "nazmul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-3",
+              "name": "Md. Zahidul Alam",
+              "role": "Assistant Professor",
+              "mobile": "01710468062",
+              "email": "zahidul@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-4",
+              "name": "ELIAS UDDIN",
+              "role": "Lecturer",
+              "mobile": "01700000602",
+              "email": "teacher2.sw@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-5",
+              "name": "SUJON KUMAR MITRO",
+              "role": "Lecturer",
+              "mobile": "+880 1737871354",
+              "email": "skmitro@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-6",
+              "name": "Samiron Kumar",
+              "role": "Lecturer",
+              "mobile": "01625754869",
+              "email": "samironkumarskg@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-7",
+              "name": "Tauhfa Mahanur",
+              "role": "Lecturer",
+              "mobile": "01794709316",
+              "email": "mahanurtaufa@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-8",
+              "name": "Helal Uddin",
+              "role": "Lecturer",
+              "mobile": "01820077057",
+              "email": "helal@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-9",
+              "name": "Suraiya Sultana",
+              "role": "Lecturer",
+              "mobile": "01706547493",
+              "email": "suraiya@jstu.ac.bd"
+            },
+            {
+              "id": "p-teacher-un-10",
+              "name": "Md. Belal Hossen",
+              "role": "Lecturer",
+              "mobile": "01780571312",
+              "email": "belalhossen@jstu.ac.bd"
+            }
           ],
           "staff": []
         }
       ]
+    }
+  ],
+  "meta": {
+    "universityName": "Jamalpur Science and Technology University",
+    "shortName": "JSTU eDiary",
+    "headerPhoto": "https://raw.githubusercontent.com/KURO-RGBN/JSTU-CGPA-CALCULATOR/main/campus-background.jpg"
+  },
+  "moreContacts": [
+    {
+      "id": "jstu-clubs",
+      "title": "JSTU Clubs & Society",
+      "icon": "people-outline",
+      "path": "/utilities/jstu-clubs"
+    },
+    {
+      "id": "bank",
+      "title": "Bank",
+      "icon": "card",
+      "path": "/utilities/bank"
+    },
+    {
+      "id": "hospital",
+      "title": "Hospital",
+      "icon": "medical",
+      "path": "/utilities/hospital"
+    },
+    {
+      "id": "reporters",
+      "title": "Reporters",
+      "icon": "newspaper",
+      "path": "/utilities/reporters"
+    },
+    {
+      "id": "pharmacy",
+      "title": "Pharmacy",
+      "icon": "medkit",
+      "path": "/utilities/pharmacy"
+    },
+    {
+      "id": "army-rab-police",
+      "title": "Army, RAB & Police",
+      "icon": "shield",
+      "path": "/utilities/army-rab-police"
+    },
+    {
+      "id": "public-universities",
+      "title": "Public Universities",
+      "icon": "school",
+      "path": "/utilities/public-universities"
+    },
+    {
+      "id": "other-councils",
+      "title": "Other Councils",
+      "icon": "people",
+      "path": "/utilities/other-councils"
+    },
+    {
+      "id": "edu-ministry",
+      "title": "Edu. Ministry",
+      "icon": "business",
+      "path": "/utilities/edu-ministry"
+    },
+    {
+      "id": "railway",
+      "title": "Railway",
+      "icon": "train",
+      "path": "/utilities/railway"
+    },
+    {
+      "id": "electronic-print-media",
+      "title": "Electronic & Print Media",
+      "icon": "tv",
+      "path": "/utilities/electronic-print-media"
+    },
+    {
+      "id": "printing-press",
+      "title": "Printing Press & Others",
+      "icon": "print",
+      "path": "/utilities/printing-press"
+    },
+    {
+      "id": "international-org",
+      "title": "International Org.",
+      "icon": "globe",
+      "path": "/utilities/international-org"
+    },
+    {
+      "id": "foreign-embassy",
+      "title": "Foreign Embassy",
+      "icon": "flag",
+      "path": "/utilities/foreign-embassy"
+    },
+    {
+      "id": "important-number",
+      "title": "Important Number",
+      "icon": "alert",
+      "path": "/utilities/important-number"
+    },
+    {
+      "id": "electricity-water-gas-tel",
+      "title": "Electricity, Water, Gas, Tel",
+      "icon": "construct",
+      "path": "/utilities/electricity-water-gas-tel"
+    }
+  ],
+  "utilities": {
+    "jstu-clubs": [
+      {
+        "id": "u-clubs-1",
+        "name": "JSTU Robotics Club",
+        "phone": "01700000810"
+      }
+    ],
+    "bank": [
+      {
+        "id": "u-bank-1",
+        "name": "Sonali Bank - University Branch",
+        "phone": "01700000810"
+      },
+      {
+        "id": "u-bank-2",
+        "name": "Janata Bank - Campus Branch",
+        "phone": "01700000811"
+      }
+    ],
+    "hospital": [
+      {
+        "id": "u-hosp-1",
+        "name": "JSTU Medical Center",
+        "phone": "01700000820"
+      },
+      {
+        "id": "u-hosp-2",
+        "name": "District General Hospital",
+        "phone": "01700000821"
+      }
+    ],
+    "pharmacy": [
+      {
+        "id": "u-pharm-1",
+        "name": "Campus Pharmacy",
+        "phone": "01700000830"
+      }
+    ],
+    "reporters": [
+      {
+        "id": "u-rep-1",
+        "name": "Campus Reporter - Daily Star",
+        "phone": "01700000840"
+      },
+      {
+        "id": "u-rep-2",
+        "name": "Campus Reporter - Prothom Alo",
+        "phone": "01700000841"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "admin-section",
+      "title": "Administrative Section",
+      "head": {
+        "id": "p-proc-head",
+        "name": "N/A",
+        "role": "",
+        "mobile": "",
+        "officePhone": "02223377503",
+        "email": ""
+      },
+      "officers": [
+        {
+          "id": "p-adm-1",
+          "name": "MD. Sabbbir Hossen",
+          "role": "Assistant Registrar",
+          "mobile": "01911494913",
+          "email": "sabbir@jstu.ac.bd"
+        },
+        {
+          "id": "p-adm-2",
+          "name": "MD. Anisujjaman",
+          "role": "Assistant Registrar",
+          "mobile": "01711102549",
+          "email": "anis@jstu.ac.bd"
+        },
+        {
+          "id": "p-adm-3",
+          "name": "S.M Modabbir Hossen",
+          "role": "Assistant Registrar",
+          "mobile": "01717636036",
+          "email": "modabbir@jstu.ac.bd"
+        },
+        {
+          "id": "p-adm-4",
+          "name": "Mirza MD. Abdul Halim",
+          "role": "Section Officer",
+          "mobile": "01711672800",
+          "email": "halim@jstu.ac.bd"
+        },
+        {
+          "id": "p-adm-5",
+          "name": "MD. Rasel Mahmud",
+          "role": "Section Officer",
+          "mobile": "01935811238",
+          "email": "rasel@jstu.ac.bd"
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "ad-coun-co-sec",
+      "title": "Administration,council and Establishment Section",
+      "head": {
+        "id": "adce",
+        "name": "N/A",
+        "role": "",
+        "mobile": "N/A",
+        "officePhone": "02223377510",
+        "email": "N/A"
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "academic-sec",
+      "title": "Academic Section",
+      "head": {
+        "id": "p-academic-sec",
+        "name": "N/A",
+        "role": "",
+        "mobile": "",
+        "officePhone": "02223377507",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "cen-store",
+      "title": "Central Store Section",
+      "head": {
+        "id": "cen-str-head",
+        "name": "N/A",
+        "role": "",
+        "mobile": "",
+        "officePhone": "02223377506",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "general-services-estate",
+      "title": "General Services and Estate Section",
+      "head": {
+        "id": "gse-head",
+        "name": "Md. Ismail Miah",
+        "role": "Deputy Register ",
+        "mobile": "01842-026850",
+        "officePhone": "N/A",
+        "email": "mimeah.cu@gmail.com"
+      },
+      "officers": [
+        {
+          "id": "Gen-off-1",
+          "name": "Fahmida Chowdhury",
+          "role": "Section Officer",
+          "mobile": "01911-157963",
+          "email": "fahmida@jstu.ac.bd"
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "porikolpona-unnoyon",
+      "title": "Planning and Development Division",
+      "head": {
+        "id": "pd-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "controller-exm",
+      "title": "Controller of Examinations Office",
+      "head": {
+        "id": "ce-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "Research-Cell",
+      "title": "Research Cell",
+      "head": {
+        "id": "rc-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "eng-off",
+      "title": "Engineering Office",
+      "head": {
+        "id": "eo-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "inst-qua-assu-cell",
+      "title": "Institutional Quality Assurance Cell",
+      "head": {
+        "id": "iqac-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "library",
+      "title": "Central Library",
+      "head": {
+        "id": "p-lib-head",
+        "name": "Placeholder Chief Librarian",
+        "role": "Chief Librarian",
+        "mobile": "01700000760",
+        "officePhone": "N/A",
+        "email": "library@jstu.ac.bd"
+      },
+      "officers": [
+        {
+          "id": "p-lib-1",
+          "name": "Placeholder Assistant Librarian",
+          "role": "Assistant Librarian",
+          "mobile": "01700000761",
+          "email": "assistlib@jstu.ac.bd"
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "ict-cell",
+      "title": "ICT Cell",
+      "head": {
+        "id": "p-ict-head",
+        "name": "Placeholder Section Head",
+        "role": "Section Head",
+        "mobile": "01700000770",
+        "officePhone": "N/A",
+        "email": "ict@jstu.ac.bd"
+      },
+      "officers": [
+        {
+          "id": "p-ict-1",
+          "name": "Placeholder System Analyst",
+          "role": "System Analyst",
+          "mobile": "01700000771",
+          "email": "sysanalyst@jstu.ac.bd"
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "med-cen",
+      "title": "Medical Centre",
+      "head": {
+        "id": "mc-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "pub-rel-in-pub-office",
+      "title": "Public Relations,Information and Publication Office",
+      "head": {
+        "id": "pripo-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "Transport-mang",
+      "title": "Transport Management Committee",
+      "head": {
+        "id": "tmc-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "Off-st-coun",
+      "title": "Office of Student Counselling and Guidance",
+      "head": {
+        "id": "oscg-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    },
+    {
+      "id": "Physical Education-tr",
+      "title": "Physical Education Training office",
+      "head": {
+        "id": "peto-head",
+        "name": "",
+        "role": "",
+        "mobile": "",
+        "officePhone": "N/A",
+        "email": ""
+      },
+      "officers": [],
+      "subsections": []
+    }
+  ],
+  "emergency": [
+    {
+      "id": "call-doctor",
+      "title": "Call Doctor",
+      "icon": "medkit",
+      "phone": "01700000999"
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "icon": "shield",
+      "phone": "01700000998"
+    },
+    {
+      "id": "fire-service",
+      "title": "Fire Service",
+      "icon": "flame",
+      "phone": "01700000997"
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "icon": "bus",
+      "phone": "01700000996"
+    },
+    {
+      "id": "power-house",
+      "title": "Power House",
+      "icon": "flash",
+      "phone": "01700000995"
+    },
+    {
+      "id": "cleanliness",
+      "title": "Cleanliness",
+      "icon": "construct",
+      "phone": "01700000994"
+    }
+  ],
+  "mainCategories": [
+    {
+      "id": "administration",
+      "title": "Administration",
+      "icon": "business",
+      "path": "/administration"
+    },
+    {
+      "id": "faculties",
+      "title": "Faculties",
+      "icon": "school",
+      "path": "/faculties"
+    },
+    {
+      "id": "halls",
+      "title": "Halls",
+      "icon": "home",
+      "path": "/halls"
+    },
+    {
+      "id": "institutes",
+      "title": "Institute",
+      "icon": "library",
+      "path": "/institutes"
+    },
+    {
+      "id": "sections",
+      "title": "Sections",
+      "icon": "grid",
+      "path": "/sections"
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency",
+      "icon": "alert-circle",
+      "path": "/emergency",
+      "isEmergency": true
+    }
+  ],
+  "halls": [
+    {
+      "id": "bijoy-24",
+      "title": "Bijoy-24 Hall (Boys)",
+      "head": {
+        "id": "p-provost-bijoy",
+        "name": "Dr. Mohammed Forhad Ali",
+        "role": "Provost",
+        "mobile": "01712-789928",
+        "officePhone": "N/A",
+        "email": "forhadali@jstu.ac.bd"
+      },
+      "staff": []
+    },
+    {
+      "id": "nurunnahar-begum",
+      "title": "Nurunnahar Begum Hall (Women's Hall)",
+      "head": {
+        "id": "p-provost-nurunnahar",
+        "name": "Dr. Mousomi Akter",
+        "role": "Provost",
+        "mobile": "01722917152",
+        "officePhone": "N/A",
+        "email": "mousomi@gmail.com"
+      },
+      "staff": []
     }
   ],
   "administration": [
@@ -236,225 +1305,118 @@
       "id": "vc-secretariat",
       "title": "Vice-Chancellor's Secretariat",
       "icon": "school-outline",
-      "head": { "id": "p-vc", "name": "Professor Dr. Md. Amir Hossain", "role": "Vice Chancellor", "mobile": "N/A", "officePhone": "+8802-223377501", "email": "vc@jstu.ac.bd", "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/vcjstu.jpg" },
+      "head": {
+        "id": "p-vc",
+        "name": "Professor Dr. Md. Amir Hossain",
+        "role": "Vice Chancellor",
+        "mobile": "N/A",
+        "officePhone": "+8802-223377501",
+        "email": "vc@jstu.ac.bd",
+        "photo": "https://raw.githubusercontent.com/saidul-Islam-kuro/photo_ediary/main/vcjstu.jpg"
+      },
       "officers": [
-        { "id": "p-vc-2", "name": "MD. Sohag Sarkar", "role": "Personal Officer", "mobile": "01719340940", "email": "sohag@jstu.ac.bd" }
+        {
+          "id": "p-vc-2",
+          "name": "MD. Sohag Sarkar",
+          "role": "Personal Officer",
+          "mobile": "01719340940",
+          "email": "sohag@jstu.ac.bd"
+        }
       ]
     },
     {
       "id": "pro-vc",
       "title": "Pro Vice-Chancellor's Office",
       "icon": "school",
-      "head": { "id": "p-pro-vc", "name": "N/A", "role": "Pro Vice Chancellor", "mobile": "N/A", "officePhone": "N/A", "email": "provc@jstu.ac.bd" },
+      "head": {
+        "id": "p-pro-vc",
+        "name": "N/A",
+        "role": "Pro Vice Chancellor",
+        "mobile": "N/A",
+        "officePhone": "N/A",
+        "email": "provc@jstu.ac.bd"
+      },
       "officers": [
-        { "id": "p-provc-1", "name": "MD. Hasibur Rahmnan", "role": "Computer Operator", "mobile": "01722320232", "email": "hasiburr549@gmail.com" }
+        {
+          "id": "p-provc-1",
+          "name": "MD. Hasibur Rahmnan",
+          "role": "Computer Operator",
+          "mobile": "01722320232",
+          "email": "hasiburr549@gmail.com"
+        }
       ]
     },
     {
       "id": "treasurer",
       "title": "Treasurer's Office",
       "icon": "cash",
-      "head": { "id": "p-treasurer", "name": "N/A", "role": "Treasurer", "mobile": "N/A", "officePhone": "N/A", "email": "N/A" },
+      "head": {
+        "id": "p-treasurer",
+        "name": "N/A",
+        "role": "Treasurer",
+        "mobile": "N/A",
+        "officePhone": "N/A",
+        "email": "N/A"
+      },
       "officers": []
     },
     {
       "id": "registrar-office",
       "title": "Registrar Office",
       "icon": "document-text",
-      "head": { "id": "p-registrar", "name": "Mohammed Nur Hossein Chowdhury", "role": "Registrar", "mobile": "01818248796", "officePhone": "", "email": "registrar@jstu.ac.bd" },
+      "head": {
+        "id": "p-registrar",
+        "name": "Mohammed Nur Hossein Chowdhury",
+        "role": "Registrar",
+        "mobile": "01818248796",
+        "officePhone": "",
+        "email": "registrar@jstu.ac.bd"
+      },
       "officers": [
-        { "id": "p-reg-1", "name": "MD. Barikul Islam", "role": "Computer operator", "mobile": "01718-673364", "email": "barikul3364@gmail.com" }
+        {
+          "id": "p-reg-1",
+          "name": "MD. Barikul Islam",
+          "role": "Computer operator",
+          "mobile": "01718-673364",
+          "email": "barikul3364@gmail.com"
+        }
       ]
     },
     {
       "id": "porctor-off",
       "title": "Proctor's Office",
       "icon": "school",
-      "head": { "id": "p-proctor", "name": "N/A", "role": "Proctor", "mobile": "01711364467", "officePhone": "N/A", "email": "proctor@jstu.ac.bd" },
+      "head": {
+        "id": "p-proctor",
+        "name": "N/A",
+        "role": "Proctor",
+        "mobile": "01711364467",
+        "officePhone": "N/A",
+        "email": "proctor@jstu.ac.bd"
+      },
       "officers": [
-        { "id": "p-proc-1", "name": "DR. Abdus Sattar", "role": "Assistant Proctor", "mobile": "01712585277", "email": "sattar@jstu.ac.bd" }
+        {
+          "id": "p-proc-1",
+          "name": "DR. Abdus Sattar",
+          "role": "Assistant Proctor",
+          "mobile": "01712585277",
+          "email": "sattar@jstu.ac.bd"
+        }
       ]
-    }
-  ],
-  "halls": [
-    {
-      "id": "bijoy-24",
-      "title": "Bijoy-24 Hall (Boys)",
-      "head": { "id": "p-provost-bijoy", "name": "Dr. Mohammed Forhad Ali", "role": "Provost", "mobile": "01712-789928", "officePhone": "N/A", "email": "forhadali@jstu.ac.bd" },
-      "staff": []
-    },
-    {
-      "id": "nurunnahar-begum",
-      "title": "Nurunnahar Begum Hall (Women's Hall)",
-      "head": { "id": "p-provost-nurunnahar", "name": "Dr. Mousomi Akter", "role": "Provost", "mobile": "01722917152", "officePhone": "N/A", "email": "mousomi@gmail.com" },
-      "staff": []
     }
   ],
   "institutes": [
     {
       "id": "institute-1",
       "title": "N/A",
-      "head": { "id": "p-director-1", "name": "N/A", "role": "Director", "mobile": "N/A", "email": "" },
+      "head": {
+        "id": "p-director-1",
+        "name": "N/A",
+        "role": "Director",
+        "mobile": "N/A",
+        "email": ""
+      },
       "staff": []
     }
-  ],
-  "sections": [
-    {
-      "id": "admin-section",
-      "title": "Administrative Section",
-      "head": { "id": "p-proc-head", "name": "N/A", "role": "", "mobile": "", "officePhone": "02223377503", "email": "" },
-      "officers": [
-        { "id": "p-adm-1", "name": "MD. Sabbbir Hossen", "role": "Assistant Registrar", "mobile": "01911494913", "email": "sabbir@jstu.ac.bd" },
-        { "id": "p-adm-2", "name": "MD. Anisujjaman", "role": "Assistant Registrar", "mobile": "01711102549", "email": "anis@jstu.ac.bd" },
-        { "id": "p-adm-3", "name": "S.M Modabbir Hossen", "role": "Assistant Registrar", "mobile": "01717636036", "email": "modabbir@jstu.ac.bd" },
-        { "id": "p-adm-4", "name": "Mirza MD. Abdul Halim", "role": "Section Officer", "mobile": "01711672800", "email": "halim@jstu.ac.bd" },
-        { "id": "p-adm-5", "name": "MD. Rasel Mahmud", "role": "Section Officer", "mobile": "01935811238", "email": "rasel@jstu.ac.bd" }
-      ],
-      "subsections": []
-    },
-    {
-      "id": "ad-coun-co-sec",
-      "title": "Administration,council and Establishment Section",
-      "head": { "id": "adce", "name": "N/A", "role": "", "mobile": "N/A", "officePhone": "02223377510", "email": "N/A" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "academic-sec",
-      "title": "Academic Section",
-      "head": { "id": "p-academic-sec", "name": "N/A", "role": "", "mobile": "", "officePhone": "02223377507", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "cen-store",
-      "title": "Central Store Section",
-      "head": { "id": "cen-str-head", "name": "N/A", "role": "", "mobile": "", "officePhone": "02223377506", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "general-services-estate",
-      "title": "General Services and Estate Section",
-      "head": { "id": "gse-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "porikolpona-unnoyon",
-      "title": "Planning and Development Division",
-      "head": { "id": "pd-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "controller-exm",
-      "title": "Controller of Examinations Office",
-      "head": { "id": "ce-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "Research-Cell",
-      "title": "Research Cell",
-      "head": { "id": "rc-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "eng-off",
-      "title": "Engineering Office",
-      "head": { "id": "eo-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "inst-qua-assu-cell",
-      "title": "Institutional Quality Assurance Cell",
-      "head": { "id": "iqac-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "library",
-      "title": "Central Library",
-      "head": { "id": "p-lib-head", "name": "Placeholder Chief Librarian", "role": "Chief Librarian", "mobile": "01700000760", "officePhone": "N/A", "email": "library@jstu.ac.bd" },
-      "officers": [
-        { "id": "p-lib-1", "name": "Placeholder Assistant Librarian", "role": "Assistant Librarian", "mobile": "01700000761", "email": "assistlib@jstu.ac.bd" }
-      ],
-      "subsections": []
-    },
-    {
-      "id": "ict-cell",
-      "title": "ICT Cell",
-      "head": { "id": "p-ict-head", "name": "Placeholder Section Head", "role": "Section Head", "mobile": "01700000770", "officePhone": "N/A", "email": "ict@jstu.ac.bd" },
-      "officers": [
-        { "id": "p-ict-1", "name": "Placeholder System Analyst", "role": "System Analyst", "mobile": "01700000771", "email": "sysanalyst@jstu.ac.bd" }
-      ],
-      "subsections": []
-    },
-    {
-      "id": "med-cen",
-      "title": "Medical Centre",
-      "head": { "id": "mc-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "pub-rel-in-pub-office",
-      "title": "Public Relations,Information and Publication Office",
-      "head": { "id": "pripo-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "Transport-mang",
-      "title": "Transport Management Committee",
-      "head": { "id": "tmc-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "Off-st-coun",
-      "title": "Office of Student Counselling and Guidance",
-      "head": { "id": "oscg-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    },
-    {
-      "id": "Physical Education-tr",
-      "title": "Physical Education Training office",
-      "head": { "id": "peto-head", "name": "", "role": "", "mobile": "", "officePhone": "N/A", "email": "" },
-      "officers": [],
-      "subsections": []
-    }
-  ],
-  "emergency": [
-    { "id": "call-doctor", "title": "Call Doctor", "icon": "medkit", "phone": "01700000999" },
-    { "id": "security", "title": "Security", "icon": "shield", "phone": "01700000998" },
-    { "id": "fire-service", "title": "Fire Service", "icon": "flame", "phone": "01700000997" },
-    { "id": "transport", "title": "Transport", "icon": "bus", "phone": "01700000996" },
-    { "id": "power-house", "title": "Power House", "icon": "flash", "phone": "01700000995" },
-    { "id": "cleanliness", "title": "Cleanliness", "icon": "construct", "phone": "01700000994" }
-  ],
-  "utilities": {
-    "jstu-clubs": [
-      { "id": "u-clubs-1", "name": "JSTU Robotics Club", "phone": "01700000810" }
-    ],
-    "bank": [
-      { "id": "u-bank-1", "name": "Sonali Bank - University Branch", "phone": "01700000810" },
-      { "id": "u-bank-2", "name": "Janata Bank - Campus Branch", "phone": "01700000811" }
-    ],
-    "hospital": [
-      { "id": "u-hosp-1", "name": "JSTU Medical Center", "phone": "01700000820" },
-      { "id": "u-hosp-2", "name": "District General Hospital", "phone": "01700000821" }
-    ],
-    "pharmacy": [
-      { "id": "u-pharm-1", "name": "Campus Pharmacy", "phone": "01700000830" }
-    ],
-    "reporters": [
-      { "id": "u-rep-1", "name": "Campus Reporter - Daily Star", "phone": "01700000840" },
-      { "id": "u-rep-2", "name": "Campus Reporter - Prothom Alo", "phone": "01700000841" }
-    ]
-  }
+  ]
 }
