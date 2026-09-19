@@ -1,0 +1,217 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME   # e.g. saidul-Islam-kuro/jstu-ediary-data
+  branch: main                                 # must match the branch in REMOTE_DATA_URL
+
+# Draft -> review -> publish, instead of every save going live instantly.
+# For official contact/emergency data this extra gate is worth keeping.
+publish_mode: editorial_workflow
+
+# Required by Decap's schema even though none of the fields below use image
+# upload — every "photo" field here is a plain URL string instead, to match
+# how photos are already hosted (a separate GitHub repo). Safe to leave as-is.
+media_folder: "admin/uploads"
+public_folder: "/admin/uploads"
+
+locale: "en"
+
+collections:
+  - name: "directory"
+    label: "JSTU Directory"
+    files:
+      - name: "data"
+        label: "Directory Data (data.json)"
+        file: "data.json"
+        fields:
+          - label: "App Info (meta)"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "University Name (full)", name: "universityName", widget: "string" }
+              - { label: "Short Name", name: "shortName", widget: "string" }
+              - { label: "Home Screen Background Photo URL", name: "headerPhoto", widget: "string", hint: "Direct https:// link to an image." }
+
+          - label: "Home Screen Tiles (mainCategories)"
+            name: "mainCategories"
+            widget: "list"
+            summary: "{{fields.title}}"
+            hint: "Advanced. These are the 6 fixed tiles on the home screen. Only change icon/path if you know the matching Ionicons name and app route — wrong values can break navigation."
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon (Ionicons name)", name: "icon", widget: "string" }
+              - { label: "App Path", name: "path", widget: "string" }
+              - { label: "Emergency styling (red tile)", name: "isEmergency", widget: "boolean", required: false, default: false }
+
+          - label: "More Contacts Tray (moreContacts)"
+            name: "moreContacts"
+            widget: "list"
+            summary: "{{fields.title}}"
+            hint: "Adding a NEW entry here needs a matching new field added under Utilities (below) by a developer — the two lists must stay in sync. Editing existing entries is safe."
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon (Ionicons name)", name: "icon", widget: "string" }
+              - { label: "App Path", name: "path", widget: "string" }
+
+          - label: "Faculties"
+            name: "faculties"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug, e.g. fac-engineering." }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon (Ionicons name)", name: "icon", widget: "string" }
+              - label: "Dean"
+                name: "dean"
+                widget: "object"
+                fields: &leader_fields
+                  - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug, e.g. p-dean-eng. Never reuse an id that exists elsewhere in this file." }
+                  - { label: "Full Name", name: "name", widget: "string" }
+                  - { label: "Role / Designation", name: "role", widget: "string", required: false }
+                  - { label: "Mobile", name: "mobile", widget: "string", required: false }
+                  - { label: "Office Phone", name: "officePhone", widget: "string", required: false }
+                  - { label: "Email", name: "email", widget: "string", required: false }
+                  - { label: "Photo URL", name: "photo", widget: "string", required: false, hint: "Direct https:// link to a photo. Leave blank if none." }
+              - label: "Departments"
+                name: "departments"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug, e.g. eee." }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - label: "Head / Chairman"
+                    name: "head"
+                    widget: "object"
+                    fields: *leader_fields
+                  - label: "Teachers"
+                    name: "teachers"
+                    widget: "list"
+                    summary: "{{fields.name}} — {{fields.role}}"
+                    fields: &person_fields
+                      - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug. Never reuse an id that exists elsewhere in this file." }
+                      - { label: "Full Name", name: "name", widget: "string" }
+                      - { label: "Role / Designation", name: "role", widget: "string", required: false }
+                      - { label: "Mobile", name: "mobile", widget: "string", required: false }
+                      - { label: "Email", name: "email", widget: "string", required: false }
+                      - { label: "Photo URL", name: "photo", widget: "string", required: false, hint: "Direct https:// link to a photo. Leave blank if none." }
+                  - label: "Supporting Staff"
+                    name: "staff"
+                    widget: "list"
+                    summary: "{{fields.name}} — {{fields.role}}"
+                    fields: *person_fields
+
+          - label: "Administration"
+            name: "administration"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug, e.g. registrar-office." }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon (Ionicons name)", name: "icon", widget: "string" }
+              - label: "Head"
+                name: "head"
+                widget: "object"
+                fields: *leader_fields
+              - label: "Officers"
+                name: "officers"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields: *person_fields
+
+          - label: "Halls"
+            name: "halls"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug, e.g. bijoy-24." }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Provost"
+                name: "head"
+                widget: "object"
+                fields: *leader_fields
+              - label: "Staff"
+                name: "staff"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields: *person_fields
+
+          - label: "Institutes"
+            name: "institutes"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug." }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Director"
+                name: "head"
+                widget: "object"
+                fields: *leader_fields
+              - label: "Staff"
+                name: "staff"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields: *person_fields
+
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Unique lowercase-hyphenated slug, e.g. ict-cell." }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Head"
+                name: "head"
+                widget: "object"
+                fields: *leader_fields
+              - label: "Officers"
+                name: "officers"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields: *person_fields
+              - label: "Subsections"
+                name: "subsections"
+                widget: "list"
+                required: false
+                hint: "Each entry must exactly match the ID of another Section above, to nest it under this one. Leave empty if none."
+                field: { label: "Section ID", name: "sectionId", widget: "string" }
+
+          - label: "Emergency Numbers"
+            name: "emergency"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon (Ionicons name)", name: "icon", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+
+          - label: "Utilities (More Contacts detail)"
+            name: "utilities"
+            widget: "object"
+            hint: "Each section below corresponds to one tile in the More Contacts tray. This list of sections is fixed in the app's code — adding a brand-new category (not already listed here) needs a developer; adding/editing entries WITHIN a category below does not."
+            fields:
+              - label: "JSTU Clubs & Society"
+                name: "jstu-clubs"
+                widget: "list"
+                required: false
+                summary: "{{fields.name}}"
+                fields: &utility_fields
+                  - { label: "ID", name: "id", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Bank", name: "bank", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Hospital", name: "hospital", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Reporters", name: "reporters", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Pharmacy", name: "pharmacy", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Army, RAB & Police", name: "army-rab-police", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Public Universities", name: "public-universities", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Other Councils", name: "other-councils", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Edu. Ministry", name: "edu-ministry", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Railway", name: "railway", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Electronic & Print Media", name: "electronic-print-media", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Printing Press & Others", name: "printing-press", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "International Org.", name: "international-org", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Foreign Embassy", name: "foreign-embassy", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Important Number", name: "important-number", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
+              - { label: "Electricity, Water, Gas, Tel", name: "electricity-water-gas-tel", widget: "list", required: false, summary: "{{fields.name}}", fields: *utility_fields }
